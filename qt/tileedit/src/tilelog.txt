@@ -1,0 +1,25 @@
+tileedit.cpp:		m_panel[panelIdx].colorbar->setTileMode(TILEMODE_SURFACE);
+tileedit.cpp:		m_panel[panelIdx].colorbar->setTileMode(TILEMODE_WATERMASK);
+tileedit.cpp:		m_panel[panelIdx].colorbar->setTileMode(TILEMODE_NIGHTLIGHT);
+tileedit.cpp:		m_panel[panelIdx].colorbar->setTileMode(TILEMODE_ELEVATION);
+tileedit.cpp:		m_panel[panelIdx].colorbar->setTileMode(TILEMODE_ELEVMOD);
+tileedit.cpp:		m_panel[panelIdx].colorbar->setTileMode(TILEMODE_NONE);
+tile.h:enum TileMode {
+colorbar.cpp:void Colorbar::setTileMode(TileMode mode)
+colorbar.cpp:	m_overlay->setTileMode(mode);
+colorbar.cpp:void ColorbarOverlay::setTileMode(TileMode mode)
+tilecanvas.cpp:void TileCanvas::setTileBlock(const TileBlock *tileBlock, TileMode mode)
+colorbar.h:	void setTileMode(TileMode mode);
+colorbar.h:	TileMode m_mode;
+colorbar.h:	void setTileMode(TileMode mode);
+colorbar.h:	TileMode m_mode;
+tilecanvas.h:    void setTileBlock(const TileBlock *tileBlock, TileMode mode);
+tilecanvas.h:	TileMode m_tileMode;
+tileblock.h:	virtual void ExtractImage(Image &img, TileMode mode, int exmin = -1, int exmax = -1, int eymin = -1, int eymax = -1) const = 0;
+tileblock.h:	virtual void ExtractImage(Image &img, TileMode mode, int exmin = -1, int exmax = -1, int eymin = -1, int eymax = -1) const
+tileblock.h:	virtual void ExtractImage(Image &img, TileMode mode, int exmin = -1, int exmax = -1, int eymin = -1, int eymax = -1) const;
+tileblock.h:	void ExtractImage(Image &img, TileMode mode, int exmin = -1, int exmax = -1, int eymin = -1, int eymax = -1) const;
+tileblock.h:	void ExtractModImage(Image &img, TileMode mode, int exmin = -1, int exmax = -1, int eymin = -1, int eymax = -1) const;
+tileblock.cpp:void MaskTileBlock::ExtractImage(Image &img, TileMode mode, int exmin, int exmax, int eymin, int eymax) const
+tileblock.cpp:void ElevTileBlock::ExtractImage(Image &img, TileMode mode, int exmin, int exmax, int eymin, int eymax) const
+tileblock.cpp:void ElevTileBlock::ExtractModImage(Image &img, TileMode mode, int exmin, int exmax, int eymin, int eymax) const

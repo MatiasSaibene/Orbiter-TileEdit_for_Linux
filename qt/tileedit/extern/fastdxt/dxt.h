@@ -43,8 +43,8 @@ typedef unsigned int dword;
 #define INSET_SHIFT 4 // inset the bounding box with ( range >> shift )
 
 #if !defined(MAX_INT)
-#define       MAX_INT         2147483647      /* max value for an int 32 */
-#define       MIN_INT         (-2147483647-1) /* min value for an int 32 */
+#define       MAX_INT         2147483647      /* std::max value for an int 32 */
+#define       MIN_INT         (-2147483647-1) /* std::min value for an int 32 */
 #endif
 
 
