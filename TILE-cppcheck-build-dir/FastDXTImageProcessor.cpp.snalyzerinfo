@@ -1,2 +1,0 @@
-compress call:[CompressDXT,computeNearestPowerOfTwo,convertToRGBA8,data,delta_m,free,get,getPixelFormat,getTotalSizeInBytes,instance,isPowerOfTwo,malloc,memalign,memcpy,memset,r,s,scaleImage,setImage,t,tick] noreturn:[get,scaleImage,setImage]
-generateMipMap

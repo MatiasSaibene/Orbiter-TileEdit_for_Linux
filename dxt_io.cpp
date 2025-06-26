@@ -1,5 +1,7 @@
 #include "dxt_io.h"
+#include <memory>
 #include <png.h>
+#include <stdexcept>
 #include "extern/fastdxt/libdxt.h"
 
 struct DDS_PIXELFORMAT {
@@ -48,27 +50,39 @@ void setdxt1header(const Image &idata, DDS_HEADER &hdr)
 
 void dxt1write(const char *fname, const Image &idata)
 {
-	const char magic[4] = { 'D', 'D', 'S', ' ' };
-	int format = FORMAT_DXT1;
-	byte *dxt1 = new byte[idata.width * idata.height * 4];
+    const char magic[4] = { 'D', 'D', 'S', ' ' };
+    int format = FORMAT_DXT1;
 
-	// Need to flip RGB order for the compression engine
-	DWORD *inp = new DWORD[idata.width * idata.height];
-	const DWORD *id = idata.data.data();
-	for (int i = 0; i < idata.width*idata.height; i++)
-		inp[i] = 0xff000000 | ((id[i] & 0xff) << 16) | (id[i] & 0xff00) | ((id[i] & 0xff0000) >> 16);
+    size_t size = idata.width * idata.height;
 
-	int n = CompressDXT((const byte*)inp, dxt1, idata.width, idata.height, format);
+    // Allocate memory with exception safety
+    std::unique_ptr<byte[]> dxt1(new (std::nothrow) byte[size * 4]);
+    std::unique_ptr<DWORD[]> inp(new (std::nothrow) DWORD[size]);
 
-	DDS_HEADER hdr;
-	setdxt1header(idata, hdr);
-	FILE *f = fopen(fname, "wb");
-	fwrite(magic, 1, 4, f);
-	fwrite(&hdr, sizeof(DDS_HEADER), 1, f);
-	fwrite(dxt1, n, 1, f);
-	fclose(f);
-	delete[]dxt1;
-	delete[]inp;
+    if (!dxt1 || !inp) {
+        fprintf(stderr, "Memory allocation failed in dxt1write()\n");
+        return;
+    }
+
+    const DWORD *id = idata.data.data();
+    for (size_t i = 0; i < size; ++i)
+        inp[i] = 0xff000000 | ((id[i] & 0xff) << 16) | (id[i] & 0xff00) | ((id[i] & 0xff0000) >> 16);
+
+    int n = CompressDXT(reinterpret_cast<const byte*>(inp.get()), dxt1.get(), idata.width, idata.height, format);
+
+    DDS_HEADER hdr;
+    setdxt1header(idata, hdr);
+
+    FILE *f = fopen(fname, "wb");
+    if (!f) {
+        fprintf(stderr, "Error: Cannot open file '%s' for writing\n", fname);
+        return;
+    }
+
+    fwrite(magic, 1, 4, f);
+    fwrite(&hdr, sizeof(DDS_HEADER), 1, f);
+    fwrite(dxt1.get(), n, 1, f);
+    fclose(f);
 }
 
 bool pngread_tmp(const char *fname, Image &idata)

@@ -1,4 +1,0 @@
-Image
-ddsread call:[ExtractDXT1,exit,fclose,fopen,fread,sizeof,strncmp] noreturn:[exit]
-ddsscan call:[ExtractDXT1,exit,memcpy,sizeof,strncmp] noreturn:[exit]
-ExtractDXT1 call:[argb]

@@ -1,4 +1,0 @@
-slave1 call:[CompressImageDXT1]
-slave5 call:[CompressImageDXT5]
-slave5ycocg call:[CompressImageDXT5YCoCg]
-CompressDXT call:[slave1,slave5,slave5ycocg]

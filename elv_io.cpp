@@ -40,6 +40,7 @@ ElevData elvread(const char *fname)
 
 	int res = fread(&hdr, sizeof(ELEVFILEHEADER), 1, f);
 	if (res != 1 || strncmp(hdr.id, "ELE\01", 4))
+        fclose(f);
 		return edata;
 
 	if (hdr.hdrsize != sizeof(ELEVFILEHEADER)) {
@@ -95,6 +96,7 @@ bool elvmodread(const char *fname, ElevData &edata)
 
 	int res = fread(&hdr, sizeof(ELEVFILEHEADER), 1, f);
 	if (res != 1 || strncmp(hdr.id, "ELE\01", 4))
+        fclose(f);
 		return false;
 
 	if (hdr.hdrsize != sizeof(ELEVFILEHEADER)) {
@@ -297,7 +299,12 @@ void elvwrite(const char *fname, const ElevData &edata, double latmin, double la
 	}
 	hdr.offset = shift * hdr.scale;
 
-	FILE *f = fopen(fname, "wb");
+    FILE *f = fopen(fname, "wb");
+    if (!f) {
+        fprintf(stderr, "Error: could not open file '%s' for writing.\n", fname);
+        perror("fopen");
+        return;
+    }
 	fwrite(&hdr, sizeof(ELEVFILEHEADER), 1, f);
 	if (hdr.dtype == 8) {
 		for (int i = 0; i < edata.data.size(); i++) {
@@ -374,7 +381,12 @@ void elvmodwrite(const char *fname, const ElevData &edata, const ElevData &ebase
 	}
 	hdr.offset = shift * hdr.scale;
 
-	FILE *f = fopen(fname, "wb");
+    FILE *f = fopen(fname, "wb");
+    if (!f) {
+        fprintf(stderr, "Error: could not open file '%s' for writing.\n", fname);
+        perror("fopen");
+        return;
+    }
 	fwrite(&hdr, sizeof(ELEVFILEHEADER), 1, f);
 	if (hdr.dtype == 8) {
 		for (int i = 0; i < edata.data.size(); i++) {

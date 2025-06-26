@@ -1,4 +1,0 @@
-qInitResources_tileedit global:[qt_resource_data,qt_resource_name,qt_resource_struct] call:[qRegisterResourceData]
-qCleanupResources_tileedit global:[qt_resource_data,qt_resource_name,qt_resource_struct] call:[qUnregisterResourceData]
-initializer call:[qInitResources_tileedit] noreturn:[qInitResources_tileedit]
-initializer call:[qCleanupResources_tileedit] noreturn:[qCleanupResources_tileedit]

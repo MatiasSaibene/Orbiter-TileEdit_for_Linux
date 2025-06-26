@@ -99,6 +99,7 @@ ElevTile::ElevTile(const ElevTile &etile)
 	: Tile(etile)
 	, m_edata(etile.m_edata)
 	, m_edataBase(etile.m_edataBase)
+    , m_waterMask(etile.m_waterMask)
 {
 	m_modified = false;
 }
