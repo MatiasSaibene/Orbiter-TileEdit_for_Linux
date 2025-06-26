@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="12969652266024827503">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="26" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="27" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="30" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="31" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/stat.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/stat.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="32" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="33" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="36" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="37" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/stat.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/stat.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="45" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="46" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;fcntl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;fcntl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="47" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdarg.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdarg.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="49" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;malloc.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;malloc.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="70" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/stat.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/stat.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="42" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="43" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;fcntl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;fcntl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="46" column="0"/>
+        </error>
+        <error id="normalCheckLevelConditionExpressions" severity="debug" msg="Analysis of condition expressions is disabled. Use --check-level=exhaustive to enable it." verbose="Analysis of condition expressions is disabled. Use --check-level=exhaustive to enable it." file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="0" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4458:(valueFlow) bailout: variable &apos;i&apos; used in loop" verbose="valueflow.cpp:4458:(valueFlow) bailout: variable &apos;i&apos; used in loop" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="214" column="27"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4482:(valueFlow) bailout: variable &apos;path.size()&apos; used in loop" verbose="valueflow.cpp:4482:(valueFlow) bailout: variable &apos;path.size()&apos; used in loop" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="214" column="27"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4458:(valueFlow) bailout: variable &apos;i&apos; used in loop" verbose="valueflow.cpp:4458:(valueFlow) bailout: variable &apos;i&apos; used in loop" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="258" column="27"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4482:(valueFlow) bailout: variable &apos;path.size()&apos; used in loop" verbose="valueflow.cpp:4482:(valueFlow) bailout: variable &apos;path.size()&apos; used in loop" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="258" column="27"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4458:(valueFlow) bailout: variable &apos;i&apos; used in loop" verbose="valueflow.cpp:4458:(valueFlow) bailout: variable &apos;i&apos; used in loop" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="284" column="27"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4482:(valueFlow) bailout: variable &apos;path.size()&apos; used in loop" verbose="valueflow.cpp:4482:(valueFlow) bailout: variable &apos;path.size()&apos; used in loop" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="284" column="27"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4458:(valueFlow) bailout: variable &apos;i&apos; used in loop" verbose="valueflow.cpp:4458:(valueFlow) bailout: variable &apos;i&apos; used in loop" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="312" column="27"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="164" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: found is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: found is changed in conditional block" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="236" column="5"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: loc is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: loc is changed in conditional block" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="245" column="5"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="296" column="2"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="338" column="6"/>
+        </error>
+        <error id="nullPointerOutOfMemory" severity="warning" msg="If memory allocation fails, then there is a possible null pointer dereference: result" verbose="If memory allocation fails, then there is a possible null pointer dereference: result" cwe="476" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="151" column="9" info="Null pointer dereference"/>
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="148" column="17" info="Assignment &apos;result=malloc(n)&apos;, assigned value is 0"/>
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="148" column="17" info="Assuming allocation function fails"/>
+            <symbol>result</symbol>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="184" column="7"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="192" column="5"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="199" column="12"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="200" column="8"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;fp&apos; shadows outer variable" verbose="Local variable &apos;fp&apos; shadows outer variable" cwe="398" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="293" column="10" info="Shadow variable"/>
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="287" column="14" info="Shadowed declaration"/>
+            <symbol>fp</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;filename&apos; should be passed by const reference." verbose="Parameter &apos;filename&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="210" column="40" info="Function parameter &apos;filename&apos; should be passed by const reference."/>
+            <symbol>filename</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;filename&apos; should be passed by const reference." verbose="Parameter &apos;filename&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="254" column="40" info="Function parameter &apos;filename&apos; should be passed by const reference."/>
+            <symbol>filename</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;filename&apos; should be passed by const reference." verbose="Parameter &apos;filename&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="281" column="37" info="Function parameter &apos;filename&apos; should be passed by const reference."/>
+            <symbol>filename</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;filename&apos; should be passed by const reference." verbose="Parameter &apos;filename&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="304" column="34" info="Function parameter &apos;filename&apos; should be passed by const reference."/>
+            <symbol>filename</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;ptr2&apos; can be declared as pointer to const" verbose="Variable &apos;ptr2&apos; can be declared as pointer to const" cwe="398" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="199" column="7" info="Variable &apos;ptr2&apos; can be declared as pointer to const"/>
+            <symbol>ptr2</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="data_path" file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="89" col="1" hash="16627627174624884284"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aInitialize" lineNumber="49"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aTime" lineNumber="79"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aLog" lineNumber="104"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aError" lineNumber="121"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aAlloc" lineNumber="142"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aFree" lineNumber="158"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aligned_malloc" lineNumber="179"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aligned_free" lineNumber="197"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="get_path" lineNumber="210"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="get_file" lineNumber="254"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="fopen" lineNumber="281"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="fstat" lineNumber="304"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="O_RDONLY"/>
+    <functioncall functionName="aError"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="fflush"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="fstat"/>
+    <functioncall functionName="getpid"/>
+    <functioncall functionName="gettimeofday"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="open"/>
+    <functioncall functionName="rfind"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="srand"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="va_end"/>
+    <functioncall functionName="va_start"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="vsprintf"/>
+  </FileInfo>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;io.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;io.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="29" column="0"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;!result&apos; is redundant or there is possible null pointer dereference: result." verbose="Either the condition &apos;!result&apos; is redundant or there is possible null pointer dereference: result." cwe="476" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="151" column="9" info="Null pointer dereference"/>
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="153" column="5" info="Assuming that condition &apos;!result&apos; is not redundant"/>
+            <symbol>result</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="data_path" file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="89" col="1" hash="4682788830622612143"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aInitialize" lineNumber="49"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aTime" lineNumber="79"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aLog" lineNumber="104"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aError" lineNumber="121"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aAlloc" lineNumber="142"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aFree" lineNumber="158"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="drand48" lineNumber="172"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aligned_malloc" lineNumber="179"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aligned_free" lineNumber="197"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="get_path" lineNumber="210"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="get_file" lineNumber="254"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="fopen" lineNumber="281"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="fstat" lineNumber="304"/>
+    <functioncall functionName="AllocConsole"/>
+    <functioncall functionName="DWORD"/>
+    <functioncall functionName="GetStdHandle"/>
+    <functioncall functionName="LocalAlloc"/>
+    <functioncall functionName="LocalFree"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="QueryPerformanceCounter"/>
+    <functioncall functionName="QueryPerformanceFrequency"/>
+    <functioncall functionName="RAND_MAX"/>
+    <functioncall functionName="STD_ERROR_HANDLE"/>
+    <functioncall functionName="WriteFile"/>
+    <functioncall functionName="_O_RDONLY"/>
+    <functioncall functionName="_close"/>
+    <functioncall functionName="_fstat"/>
+    <functioncall functionName="_open"/>
+    <functioncall functionName="aError"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="fflush"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="rand"/>
+    <functioncall functionName="rfind"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="va_end"/>
+    <functioncall functionName="va_start"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="vsprintf"/>
+  </FileInfo>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;windows.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;windows.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="40" column="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &apos;_WIN32&apos; was not checked because its code equals another one." verbose="The configuration &apos;_WIN32&apos; was not checked because its code equals another one.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="0" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;mach/mach_time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;mach/mach_time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" line="34" column="0"/>
+        </error>
+  <FileInfo check="Class">
+<class name="data_path" file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="89" col="1" hash="16627627174624884284"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aInitialize" lineNumber="49"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aTime" lineNumber="79"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aLog" lineNumber="104"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aError" lineNumber="121"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aAlloc" lineNumber="142"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aFree" lineNumber="158"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aligned_malloc" lineNumber="179"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="aligned_free" lineNumber="197"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="get_path" lineNumber="210"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="get_file" lineNumber="254"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="fopen" lineNumber="281"/>
+    <functiondecl file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.cpp" functionName="fstat" lineNumber="304"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="O_RDONLY"/>
+    <functioncall functionName="aError"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="fflush"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="fstat"/>
+    <functioncall functionName="getpid"/>
+    <functioncall functionName="mach_absolute_time"/>
+    <functioncall functionName="mach_timebase_info"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="open"/>
+    <functioncall functionName="rfind"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="srand"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="va_end"/>
+    <functioncall functionName="va_start"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="vsprintf"/>
+  </FileInfo>
+</analyzerinfo>

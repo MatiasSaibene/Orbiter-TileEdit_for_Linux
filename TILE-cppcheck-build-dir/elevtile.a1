@@ -1,0 +1,442 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="6525064716243163912">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="windows_compat.h" line="8" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="windows_compat.h" line="9" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="tile.h" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="imagetools.h" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="ZTreeMgr.h" line="12" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstring&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstring&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="elevtile.cpp" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="elevtile.cpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;math.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;math.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="elevtile.cpp" line="8" column="0"/>
+        </error>
+        <error id="autoNoType" severity="debug" msg="auto token with no type." verbose="auto token with no type." file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="56" column="3"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="0" column="0"/>
+        </error>
+        <error id="normalCheckLevelConditionExpressions" severity="debug" msg="Analysis of condition expressions is disabled. Use --check-level=exhaustive to enable it." verbose="Analysis of condition expressions is disabled. Use --check-level=exhaustive to enable it." file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="0" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4482:(valueFlow) bailout: variable &apos;sub.height&apos; used in loop" verbose="valueflow.cpp:4482:(valueFlow) bailout: variable &apos;sub.height&apos; used in loop" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="74" column="20"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4482:(valueFlow) bailout: variable &apos;tileGrid.size()&apos; used in loop" verbose="valueflow.cpp:4482:(valueFlow) bailout: variable &apos;tileGrid.size()&apos; used in loop" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="287" column="16"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4482:(valueFlow) bailout: variable &apos;edata.height&apos; used in loop" verbose="valueflow.cpp:4482:(valueFlow) bailout: variable &apos;edata.height&apos; used in loop" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="362" column="20"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4482:(valueFlow) bailout: variable &apos;edata.width&apos; used in loop" verbose="valueflow.cpp:4482:(valueFlow) bailout: variable &apos;edata.width&apos; used in loop" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="363" column="21"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4482:(valueFlow) bailout: variable &apos;edata.height&apos; used in loop" verbose="valueflow.cpp:4482:(valueFlow) bailout: variable &apos;edata.height&apos; used in loop" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="398" column="16"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4482:(valueFlow) bailout: variable &apos;edata.width&apos; used in loop" verbose="valueflow.cpp:4482:(valueFlow) bailout: variable &apos;edata.width&apos; used in loop" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="400" column="17"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: y is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: y is changed in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="76" column="2"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: i is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: i is changed in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="288" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="328" column="6"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: eps is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: eps is changed in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="328" column="6"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="371" column="4"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: eps is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: eps is changed in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="371" column="4"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="460" column="2"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="59" column="2"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: m_edata.data.size() is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: m_edata.data.size() is changed in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="140" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="140" column="2"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: s_globalLoadMode is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: s_globalLoadMode is changed in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="140" column="2"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="177" column="2"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="185" column="2"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: s_treeMgr is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: s_treeMgr is changed in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="185" column="2"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="195" column="2"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="203" column="2"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: s_treeModMgr is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: s_treeModMgr is changed in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="203" column="2"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: m_sublvl is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: m_sublvl is changed in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="235" column="2"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="216" column="3"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="220" column="3"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="234" column="3"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: m_modified is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: m_modified is changed in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="254" column="2"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: m_modified is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: m_modified is changed in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="274" column="2"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="296" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="300" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="341" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="432" column="4"/>
+        </error>
+        <error id="missingMemberCopy" severity="warning" msg="Member variable &apos;ElevTile::m_waterMask&apos; is not assigned in the copy constructor. Should it be copied?" verbose="Member variable &apos;ElevTile::m_waterMask&apos; is not assigned in the copy constructor. Should it be copied?" cwe="398" inconclusive="true" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="98" column="11"/>
+            <symbol>ElevTile::m_waterMask</symbol>
+        </error>
+        <error id="functionConst" severity="style" msg="Technically the member function &apos;ElevTile::nodeElevation&apos; can be const." verbose="The member function &apos;ElevTile::nodeElevation&apos; can be made a const function. Making this function &apos;const&apos; should not cause compiler errors. Even though the function can be made const function technically it may not make sense conceptually. Think about your design and the task of the function first - is it a function that must not change object internal state?" cwe="398" inconclusive="true" file0="elevtile.cpp">
+            <location file="tile.h" line="352" column="12"/>
+            <location file="elevtile.cpp" line="118" column="18"/>
+            <symbol>ElevTile::nodeElevation</symbol>
+        </error>
+        <error id="functionConst" severity="style" msg="Technically the member function &apos;ElevTile::LoadData&apos; can be const." verbose="The member function &apos;ElevTile::LoadData&apos; can be made a const function. Making this function &apos;const&apos; should not cause compiler errors. Even though the function can be made const function technically it may not make sense conceptually. Think about your design and the task of the function first - is it a function that must not change object internal state?" cwe="398" inconclusive="true" file0="elevtile.cpp">
+            <location file="tile.h" line="379" column="10"/>
+            <location file="elevtile.cpp" line="171" column="16"/>
+            <symbol>ElevTile::LoadData</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;set&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;set&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elevtile.cpp">
+            <location file="tile.h" line="128" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="86" column="18" info="Virtual function in base class"/>
+            <symbol>set</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;Layer&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;Layer&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elevtile.cpp">
+            <location file="tile.h" line="153" column="23" info="Function in derived class"/>
+            <location file="tile.h" line="94" column="31" info="Virtual function in base class"/>
+            <symbol>Layer</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;mapToAncestors&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;mapToAncestors&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elevtile.cpp">
+            <location file="tile.h" line="154" column="10" info="Function in derived class"/>
+            <location file="tile.h" line="101" column="18" info="Virtual function in base class"/>
+            <symbol>mapToAncestors</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;Layer&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;Layer&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elevtile.cpp">
+            <location file="tile.h" line="166" column="23" info="Function in derived class"/>
+            <location file="tile.h" line="94" column="31" info="Virtual function in base class"/>
+            <symbol>Layer</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;ExtractImage&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;ExtractImage&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elevtile.cpp">
+            <location file="tile.h" line="258" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="192" column="18" info="Virtual function in base class"/>
+            <symbol>ExtractImage</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elevtile.cpp">
+            <location file="tile.h" line="273" column="19" info="Function in derived class"/>
+            <location file="tile.h" line="212" column="19" info="Virtual function in base class"/>
+            <symbol>copyTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elevtile.cpp">
+            <location file="tile.h" line="274" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="217" column="18" info="Virtual function in base class"/>
+            <symbol>copyTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;syncTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;syncTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elevtile.cpp">
+            <location file="tile.h" line="275" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="222" column="18" info="Virtual function in base class"/>
+            <symbol>syncTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elevtile.cpp">
+            <location file="tile.h" line="283" column="19" info="Function in derived class"/>
+            <location file="tile.h" line="212" column="19" info="Virtual function in base class"/>
+            <symbol>copyTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elevtile.cpp">
+            <location file="tile.h" line="284" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="217" column="18" info="Virtual function in base class"/>
+            <symbol>copyTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;ExtractImage&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;ExtractImage&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elevtile.cpp">
+            <location file="tile.h" line="285" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="258" column="18" info="Virtual function in base class"/>
+            <symbol>ExtractImage</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;setTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;setTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elevtile.cpp">
+            <location file="tile.h" line="299" column="10" info="Function in derived class"/>
+            <location file="tile.h" line="194" column="18" info="Virtual function in base class"/>
+            <symbol>setTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elevtile.cpp">
+            <location file="tile.h" line="302" column="19" info="Function in derived class"/>
+            <location file="tile.h" line="212" column="19" info="Virtual function in base class"/>
+            <symbol>copyTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elevtile.cpp">
+            <location file="tile.h" line="303" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="217" column="18" info="Virtual function in base class"/>
+            <symbol>copyTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;syncTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;syncTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elevtile.cpp">
+            <location file="tile.h" line="317" column="10" info="Function in derived class"/>
+            <location file="tile.h" line="222" column="18" info="Virtual function in base class"/>
+            <symbol>syncTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;ExtractImage&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;ExtractImage&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elevtile.cpp">
+            <location file="tile.h" line="324" column="10" info="Function in derived class"/>
+            <location file="tile.h" line="192" column="18" info="Virtual function in base class"/>
+            <symbol>ExtractImage</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;Layer&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;Layer&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elevtile.cpp">
+            <location file="tile.h" line="351" column="23" info="Function in derived class"/>
+            <location file="tile.h" line="94" column="31" info="Virtual function in base class"/>
+            <symbol>Layer</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;set&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;set&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elevtile.cpp">
+            <location file="tile.h" line="354" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="86" column="18" info="Virtual function in base class"/>
+            <symbol>set</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;mapToAncestors&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;mapToAncestors&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elevtile.cpp">
+            <location file="tile.h" line="365" column="10" info="Function in derived class"/>
+            <location file="tile.h" line="101" column="18" info="Virtual function in base class"/>
+            <symbol>mapToAncestors</symbol>
+        </error>
+        <error id="duplicateAssignExpression" severity="style" msg="Same expression used in consecutive assignments of &apos;xofs&apos; and &apos;yofs&apos;." verbose="Finding variables &apos;xofs&apos; and &apos;yofs&apos; that are assigned the same expression is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" inconclusive="true" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="357" column="6"/>
+            <location file="elevtile.cpp" line="358" column="6"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;ip&apos; can be reduced." verbose="The scope of the variable &apos;ip&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="388" column="12"/>
+            <symbol>ip</symbol>
+        </error>
+        <error id="funcArgNamesDifferent" severity="style" msg="Function &apos;setTreeMgr&apos; argument 1 names different: declaration &apos;mgr&apos; definition &apos;treeMgr&apos;." verbose="Function &apos;setTreeMgr&apos; argument 1 names different: declaration &apos;mgr&apos; definition &apos;treeMgr&apos;." cwe="628" inconclusive="true" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="483" column="43"/>
+            <location file="tile.h" line="350" column="44"/>
+            <symbol>setTreeMgr</symbol>
+        </error>
+        <error id="funcArgNamesDifferent" severity="style" msg="Function &apos;setTreeMgr&apos; argument 2 names different: declaration &apos;modMgr&apos; definition &apos;treeModMgr&apos;." verbose="Function &apos;setTreeMgr&apos; argument 2 names different: declaration &apos;modMgr&apos; definition &apos;treeModMgr&apos;." cwe="628" inconclusive="true" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="483" column="68"/>
+            <location file="tile.h" line="350" column="65"/>
+            <symbol>setTreeMgr</symbol>
+        </error>
+        <error id="shadowFunction" severity="style" msg="Local variable &apos;isModified&apos; shadows outer function" verbose="Local variable &apos;isModified&apos; shadows outer function" cwe="398" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="360" column="7" info="Shadow variable"/>
+            <location file="tile.h" line="360" column="10" info="Shadowed declaration"/>
+            <symbol>isModified</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ilngn&apos; is assigned a value that is never used." verbose="Variable &apos;ilngn&apos; is assigned a value that is never used." cwe="563" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="320" column="11"/>
+            <symbol>ilngn</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: block_x0" verbose="Unused variable: block_x0" cwe="563" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="281" column="25"/>
+            <symbol>block_x0</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: block_y0" verbose="Unused variable: block_y0" cwe="563" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="281" column="35"/>
+            <symbol>block_y0</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;h4&apos; is assigned a value that is never used." verbose="Variable &apos;h4&apos; is assigned a value that is never used." cwe="563" file0="elevtile.cpp">
+            <location file="elevtile.cpp" line="356" column="9"/>
+            <symbol>h4</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="elv_io.h:21:10" call-funcname="elvread" call-argnr="1" file="elevtile.cpp" line="176" col="18" call-argexpr="path" call-argvaluetype="7" call-argvalue="1024" call-argvalue-ufr="0"/><function-call call-id="elv_io.h:22:6" call-funcname="elvmodread" call-argnr="1" file="elevtile.cpp" line="194" col="21" call-argexpr="path" call-argvaluetype="7" call-argvalue="1024" call-argvalue-ufr="0"/><function-call call-id="elv_io.h:27:6" call-funcname="elvwrite" call-argnr="1" file="elevtile.cpp" line="252" col="11" call-argexpr="path" call-argvaluetype="7" call-argvalue="1024" call-argvalue-ufr="0"/><function-call call-id="elv_io.h:28:6" call-funcname="elvmodwrite" call-argnr="1" file="elevtile.cpp" line="272" col="14" call-argexpr="path" call-argvaluetype="7" call-argvalue="1024" call-argvalue-ufr="0"/><function-call call-id="ZTreeMgr.h:94:8" call-funcname="ReadData" call-argnr="2" file="ZTreeMgr.h" line="97" col="11" my-id="ZTreeMgr.h:96:15" my-argnr="4"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TreeNode" file="ZTreeMgr.h" line="18" col="1" hash="12582209069392340624"/>
+<class name="ElevData" file="tile.h" line="34" col="1" hash="3569416594032123990"/>
+<class name="ElevDisplayParam" file="tile.h" line="49" col="1" hash="2206908051769139680"/>
+<class name="ElevTile" file="tile.h" line="342" col="1" hash="9357630560028507288"/>
+<class name="ElevPatchMetaInfo" file="elv_io.h" line="9" col="1" hash="5356685785373992591"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="tile.h:372:10" my-argnr="1" my-argname="mtile" file="elevtile.cpp" line="452" col="22" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="tile.h:42:15" my-argnr="1" my-argname="edata" file="elevtile.cpp" line="34" col="10" value="0"/>
+    <unsafe-usage my-id="tile.h:45:14" my-argnr="1" my-argname="xrange" file="elevtile.cpp" line="65" col="14" value="0"/>
+    <unsafe-usage my-id="tile.h:45:14" my-argnr="2" my-argname="yrange" file="elevtile.cpp" line="66" col="15" value="0"/>
+    <unsafe-usage my-id="tile.h:372:10" my-argnr="1" my-argname="mtile" file="elevtile.cpp" line="452" col="22" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="ZTreeMgr.h" functionName="size" lineNumber="64"/>
+    <functiondecl file="ZTreeMgr.h" functionName="NodeSizeDeflated" lineNumber="67"/>
+    <functiondecl file="ZTreeMgr.h" functionName="NodeSizeInflated" lineNumber="70"/>
+    <functiondecl file="ZTreeMgr.h" functionName="TOC" lineNumber="89"/>
+    <functiondecl file="ZTreeMgr.h" functionName="ReadData" lineNumber="96"/>
+    <functiondecl file="ZTreeMgr.h" functionName="NodeSizeDeflated" lineNumber="101"/>
+    <functiondecl file="ZTreeMgr.h" functionName="NodeSizeInflated" lineNumber="102"/>
+    <functiondecl file="tile.h" functionName="nLat" lineNumber="65"/>
+    <functiondecl file="tile.h" functionName="nLng" lineNumber="66"/>
+    <functiondecl file="tile.h" functionName="Level" lineNumber="77"/>
+    <functiondecl file="tile.h" functionName="iLat" lineNumber="78"/>
+    <functiondecl file="tile.h" functionName="iLng" lineNumber="79"/>
+    <functiondecl file="tile.h" functionName="subLevel" lineNumber="80"/>
+    <functiondecl file="tile.h" functionName="subiLat" lineNumber="81"/>
+    <functiondecl file="tile.h" functionName="subiLng" lineNumber="82"/>
+    <functiondecl file="tile.h" functionName="nLat" lineNumber="83"/>
+    <functiondecl file="tile.h" functionName="nLng" lineNumber="84"/>
+    <functiondecl file="tile.h" functionName="setLevel" lineNumber="87"/>
+    <functiondecl file="tile.h" functionName="setiLat" lineNumber="88"/>
+    <functiondecl file="tile.h" functionName="setiLng" lineNumber="89"/>
+    <functiondecl file="tile.h" functionName="setSubLevel" lineNumber="90"/>
+    <functiondecl file="tile.h" functionName="setSubiLat" lineNumber="91"/>
+    <functiondecl file="tile.h" functionName="setSubiLng" lineNumber="92"/>
+    <functiondecl file="tile.h" functionName="root" lineNumber="97"/>
+    <functiondecl file="tile.h" functionName="getData" lineNumber="129"/>
+    <functiondecl file="tile.h" functionName="getData" lineNumber="130"/>
+    <functiondecl file="tile.h" functionName="Level" lineNumber="179"/>
+    <functiondecl file="tile.h" functionName="iLat0" lineNumber="181"/>
+    <functiondecl file="tile.h" functionName="iLat1" lineNumber="182"/>
+    <functiondecl file="tile.h" functionName="iLng0" lineNumber="183"/>
+    <functiondecl file="tile.h" functionName="iLng1" lineNumber="184"/>
+    <functiondecl file="tile.h" functionName="nLat" lineNumber="185"/>
+    <functiondecl file="tile.h" functionName="nLng" lineNumber="186"/>
+    <functiondecl file="tile.h" functionName="iLng_norm" lineNumber="187"/>
+    <functiondecl file="tile.h" functionName="nLatBlock" lineNumber="188"/>
+    <functiondecl file="tile.h" functionName="nLngBlock" lineNumber="189"/>
+    <functiondecl file="tile.h" functionName="nBlock" lineNumber="190"/>
+    <functiondecl file="tile.h" functionName="getData" lineNumber="260"/>
+    <functiondecl file="tile.h" functionName="getData" lineNumber="261"/>
+    <functiondecl file="tile.h" functionName="getData" lineNumber="300"/>
+    <functiondecl file="tile.h" functionName="getBaseData" lineNumber="301"/>
+    <functiondecl file="tile.h" functionName="isModified" lineNumber="311"/>
+    <functiondecl file="tile.h" functionName="getData" lineNumber="356"/>
+    <functiondecl file="tile.h" functionName="getData" lineNumber="357"/>
+    <functiondecl file="tile.h" functionName="getBaseData" lineNumber="358"/>
+    <functiondecl file="tile.h" functionName="getBaseData" lineNumber="359"/>
+    <functiondecl file="tile.h" functionName="isModified" lineNumber="360"/>
+    <functiondecl file="elevtile.cpp" functionName="nodeValue" lineNumber="43"/>
+    <functiondecl file="elevtile.cpp" functionName="setNodeValue" lineNumber="48"/>
+    <functiondecl file="elevtile.cpp" functionName="RescanLimits" lineNumber="53"/>
+    <functiondecl file="elevtile.cpp" functionName="SubTile" lineNumber="62"/>
+    <functiondecl file="elevtile.cpp" functionName="set" lineNumber="106"/>
+    <functiondecl file="elevtile.cpp" functionName="nodeElevation" lineNumber="118"/>
+    <functiondecl file="elevtile.cpp" functionName="RescanLimits" lineNumber="124"/>
+    <functiondecl file="elevtile.cpp" functionName="Load" lineNumber="129"/>
+    <functiondecl file="elevtile.cpp" functionName="InterpolateFromAncestor" lineNumber="146"/>
+    <functiondecl file="elevtile.cpp" functionName="LoadData" lineNumber="171"/>
+    <functiondecl file="elevtile.cpp" functionName="LoadModData" lineNumber="188"/>
+    <functiondecl file="elevtile.cpp" functionName="LoadSubset" lineNumber="206"/>
+    <functiondecl file="elevtile.cpp" functionName="Save" lineNumber="238"/>
+    <functiondecl file="elevtile.cpp" functionName="SaveMod" lineNumber="257"/>
+    <functiondecl file="elevtile.cpp" functionName="MatchNeighbourTiles" lineNumber="277"/>
+    <functiondecl file="elevtile.cpp" functionName="mapToAncestors" lineNumber="336"/>
+    <functiondecl file="elevtile.cpp" functionName="ProlongToChildren" lineNumber="386"/>
+    <functiondecl file="elevtile.cpp" functionName="setWaterMask" lineNumber="447"/>
+    <functiondecl file="elevtile.cpp" functionName="Load" lineNumber="463"/>
+    <functiondecl file="elevtile.cpp" functionName="InterpolateFromAncestor" lineNumber="473"/>
+    <functiondecl file="elevtile.cpp" functionName="setTreeMgr" lineNumber="483"/>
+    <functiondecl file="elevtile.cpp" functionName="dataChanged" lineNumber="489"/>
+    <functioncall functionName="DXT1Tile"/>
+    <functioncall functionName="ElevData"/>
+    <functioncall functionName="ElevDisplayParam"/>
+    <functioncall functionName="ElevTile"/>
+    <functioncall functionName="ElevTileBlock"/>
+    <functioncall functionName="Idx"/>
+    <functioncall functionName="Image"/>
+    <functioncall functionName="InterpolateFromAncestor"/>
+    <functioncall functionName="Layer"/>
+    <functioncall functionName="Load"/>
+    <functioncall functionName="LoadData"/>
+    <functioncall functionName="LoadModData"/>
+    <functioncall functionName="LoadSubset"/>
+    <functioncall functionName="NodeSizeDeflated"/>
+    <functioncall functionName="NodeSizeInflated"/>
+    <functioncall functionName="ProlongToChildren"/>
+    <functioncall functionName="ReadData"/>
+    <functioncall functionName="ReleaseData"/>
+    <functioncall functionName="RescanLimits"/>
+    <functioncall functionName="SaveMod"/>
+    <functioncall functionName="SubTile"/>
+    <functioncall functionName="SurfTileBlock"/>
+    <functioncall functionName="Tile"/>
+    <functioncall functionName="TileBlock"/>
+    <functioncall functionName="TreeNode"/>
+    <functioncall functionName="ZTreeMgr"/>
+    <functioncall functionName="_getTile"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="cmap"/>
+    <functioncall functionName="copyTile"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="dataChanged"/>
+    <functioncall functionName="elvmodread"/>
+    <functioncall functionName="elvmodscan"/>
+    <functioncall functionName="elvmodwrite"/>
+    <functioncall functionName="elvread"/>
+    <functioncall functionName="elvscan"/>
+    <functioncall functionName="elvwrite"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="ensureLayerDir"/>
+    <functioncall functionName="fabs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getBaseData"/>
+    <functioncall functionName="getData"/>
+    <functioncall functionName="max_element"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="min_element"/>
+    <functioncall functionName="minmax_element"/>
+    <functioncall functionName="nLat"/>
+    <functioncall functionName="nLng"/>
+    <functioncall functionName="nodeValue"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="setSubLevel"/>
+    <functioncall functionName="setSubiLat"/>
+    <functioncall functionName="setSubiLng"/>
+    <functioncall functionName="setTile"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sprintf"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="syncTiles"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &apos;_M_X64;__x86_64__&apos; was not checked because its code equals another one." verbose="The configuration &apos;_M_X64;__x86_64__&apos; was not checked because its code equals another one.">
+            <location file="elevtile.cpp" line="0" column="0"/>
+        </error>
+</analyzerinfo>

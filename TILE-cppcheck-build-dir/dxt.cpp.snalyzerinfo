@@ -1,0 +1,21 @@
+CompressImageDXT1 call:[ColorTo565,EmitColorIndicesFast,EmitWord,ExtractBlock,GetMinMaxColorsByBBox] noreturn:[EmitColorIndicesFast]
+RGBAtoYCoCg
+CompressImageDXT5YCoCg call:[CompressImageDXT5,RGBAtoYCoCg,free,memalign,memset] noreturn:[free]
+CompressImageDXT5 call:[ColorTo565,EmitAlphaIndicesFast,EmitByte,EmitColorIndicesFast,EmitWord,ExtractBlock,GetMinMaxColorsAlpha,int] noreturn:[EmitColorIndicesFast,int]
+ExtractBlock call:[memcpy]
+ColorTo565 call:[return]
+EmitByte
+EmitWord
+EmitDoubleWord
+ColorDistance call:[return]
+SwapColors call:[memcpy] noreturn:[memcpy]
+GetMinMaxColors call:[ColorDistance,ColorTo565,SwapColors,memcpy] noreturn:[SwapColors,memcpy]
+ColorLuminance call:[return] noreturn:[return]
+GetMinMaxColorsByLuminance call:[ColorLuminance,ColorTo565,SwapColors,memcpy] noreturn:[SwapColors,memcpy]
+GetMinMaxColorsByBBox
+GetMinMaxColorsAlpha
+EmitColorIndices call:[ColorDistance,EmitDoubleWord] noreturn:[EmitDoubleWord]
+EmitColorIndicesFast call:[EmitDoubleWord,abs] noreturn:[EmitDoubleWord]
+EmitAlphaIndices call:[EmitByte,abs] noreturn:[EmitByte]
+EmitAlphaIndicesFast call:[EmitByte] noreturn:[EmitByte]
+ComputeError call:[sqrt]

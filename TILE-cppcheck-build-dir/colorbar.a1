@@ -1,0 +1,342 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="1001412237768097560">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;QWidget&quot; not found." verbose="Include file: &quot;QWidget&quot; not found.">
+            <location file="colorbar.h" line="7" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;QPen&quot; not found." verbose="Include file: &quot;QPen&quot; not found.">
+            <location file="colorbar.h" line="8" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="windows_compat.h" line="8" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="windows_compat.h" line="9" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="tile.h" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="imagetools.h" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="ZTreeMgr.h" line="12" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;QPainter&quot; not found." verbose="Include file: &quot;QPainter&quot; not found.">
+            <location file="colorbar.cpp" line="3" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;QResizeEvent&quot; not found." verbose="Include file: &quot;QResizeEvent&quot; not found.">
+            <location file="colorbar.cpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;QFontMetrics&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;QFontMetrics&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="colorbar.cpp" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cfloat&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cfloat&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="colorbar.cpp" line="6" column="0"/>
+        </error>
+        <error id="normalCheckLevelConditionExpressions" severity="debug" msg="Analysis of condition expressions is disabled. Use --check-level=exhaustive to enable it." verbose="Analysis of condition expressions is disabled. Use --check-level=exhaustive to enable it." file0="colorbar.cpp">
+            <location file="colorbar.cpp" line="0" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: mode is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: mode is changed in conditional block" file0="colorbar.cpp">
+            <location file="colorbar.cpp" line="26" column="2"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: m_mode is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: m_mode is changed in conditional block" file0="colorbar.cpp">
+            <location file="colorbar.cpp" line="26" column="2"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: mode is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: mode is changed in conditional block" file0="colorbar.cpp">
+            <location file="colorbar.cpp" line="124" column="2"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: m_mode is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: m_mode is changed in conditional block" file0="colorbar.cpp">
+            <location file="colorbar.cpp" line="124" column="2"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="colorbar.cpp">
+            <location file="colorbar.cpp" line="172" column="3"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="colorbar.cpp">
+            <location file="colorbar.cpp" line="182" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4775:(valueFlow) bailout: possible noreturn scope" verbose="valueflow.cpp:4775:(valueFlow) bailout: possible noreturn scope" file0="colorbar.cpp">
+            <location file="colorbar.cpp" line="74" column="12"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="colorbar.cpp">
+            <location file="colorbar.cpp" line="93" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4775:(valueFlow) bailout: possible noreturn scope" verbose="valueflow.cpp:4775:(valueFlow) bailout: possible noreturn scope" file0="colorbar.cpp">
+            <location file="colorbar.cpp" line="69" column="12"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4775:(valueFlow) bailout: possible noreturn scope" verbose="valueflow.cpp:4775:(valueFlow) bailout: possible noreturn scope" file0="colorbar.cpp">
+            <location file="colorbar.cpp" line="92" column="11"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4775:(valueFlow) bailout: possible noreturn scope" verbose="valueflow.cpp:4775:(valueFlow) bailout: possible noreturn scope" file0="colorbar.cpp">
+            <location file="colorbar.cpp" line="138" column="3"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="colorbar.cpp">
+            <location file="colorbar.cpp" line="138" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4775:(valueFlow) bailout: possible noreturn scope" verbose="valueflow.cpp:4775:(valueFlow) bailout: possible noreturn scope" file0="colorbar.cpp">
+            <location file="colorbar.cpp" line="147" column="3"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="colorbar.cpp">
+            <location file="colorbar.cpp" line="147" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4775:(valueFlow) bailout: possible noreturn scope" verbose="valueflow.cpp:4775:(valueFlow) bailout: possible noreturn scope" file0="colorbar.cpp">
+            <location file="colorbar.cpp" line="184" column="17"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="colorbar.cpp">
+            <location file="colorbar.cpp" line="247" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4775:(valueFlow) bailout: possible noreturn scope" verbose="valueflow.cpp:4775:(valueFlow) bailout: possible noreturn scope" file0="colorbar.cpp">
+            <location file="colorbar.cpp" line="239" column="12"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;ColorbarOverlay::m_r&apos; is not initialized in the constructor." verbose="Member variable &apos;ColorbarOverlay::m_r&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="colorbar.cpp">
+            <location file="colorbar.cpp" line="103" column="18"/>
+            <symbol>ColorbarOverlay::m_r</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;ColorbarOverlay::m_g&apos; is not initialized in the constructor." verbose="Member variable &apos;ColorbarOverlay::m_g&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="colorbar.cpp">
+            <location file="colorbar.cpp" line="103" column="18"/>
+            <symbol>ColorbarOverlay::m_g</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;ColorbarOverlay::m_b&apos; is not initialized in the constructor." verbose="Member variable &apos;ColorbarOverlay::m_b&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="colorbar.cpp">
+            <location file="colorbar.cpp" line="103" column="18"/>
+            <symbol>ColorbarOverlay::m_b</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;set&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;set&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="colorbar.cpp">
+            <location file="tile.h" line="128" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="86" column="18" info="Virtual function in base class"/>
+            <symbol>set</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;Layer&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;Layer&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="colorbar.cpp">
+            <location file="tile.h" line="153" column="23" info="Function in derived class"/>
+            <location file="tile.h" line="94" column="31" info="Virtual function in base class"/>
+            <symbol>Layer</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;mapToAncestors&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;mapToAncestors&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="colorbar.cpp">
+            <location file="tile.h" line="154" column="10" info="Function in derived class"/>
+            <location file="tile.h" line="101" column="18" info="Virtual function in base class"/>
+            <symbol>mapToAncestors</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;Layer&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;Layer&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="colorbar.cpp">
+            <location file="tile.h" line="166" column="23" info="Function in derived class"/>
+            <location file="tile.h" line="94" column="31" info="Virtual function in base class"/>
+            <symbol>Layer</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;ExtractImage&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;ExtractImage&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="colorbar.cpp">
+            <location file="tile.h" line="258" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="192" column="18" info="Virtual function in base class"/>
+            <symbol>ExtractImage</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="colorbar.cpp">
+            <location file="tile.h" line="273" column="19" info="Function in derived class"/>
+            <location file="tile.h" line="212" column="19" info="Virtual function in base class"/>
+            <symbol>copyTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="colorbar.cpp">
+            <location file="tile.h" line="274" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="217" column="18" info="Virtual function in base class"/>
+            <symbol>copyTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;syncTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;syncTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="colorbar.cpp">
+            <location file="tile.h" line="275" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="222" column="18" info="Virtual function in base class"/>
+            <symbol>syncTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="colorbar.cpp">
+            <location file="tile.h" line="283" column="19" info="Function in derived class"/>
+            <location file="tile.h" line="212" column="19" info="Virtual function in base class"/>
+            <symbol>copyTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="colorbar.cpp">
+            <location file="tile.h" line="284" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="217" column="18" info="Virtual function in base class"/>
+            <symbol>copyTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;ExtractImage&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;ExtractImage&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="colorbar.cpp">
+            <location file="tile.h" line="285" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="258" column="18" info="Virtual function in base class"/>
+            <symbol>ExtractImage</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;setTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;setTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="colorbar.cpp">
+            <location file="tile.h" line="299" column="10" info="Function in derived class"/>
+            <location file="tile.h" line="194" column="18" info="Virtual function in base class"/>
+            <symbol>setTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="colorbar.cpp">
+            <location file="tile.h" line="302" column="19" info="Function in derived class"/>
+            <location file="tile.h" line="212" column="19" info="Virtual function in base class"/>
+            <symbol>copyTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="colorbar.cpp">
+            <location file="tile.h" line="303" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="217" column="18" info="Virtual function in base class"/>
+            <symbol>copyTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;syncTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;syncTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="colorbar.cpp">
+            <location file="tile.h" line="317" column="10" info="Function in derived class"/>
+            <location file="tile.h" line="222" column="18" info="Virtual function in base class"/>
+            <symbol>syncTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;ExtractImage&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;ExtractImage&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="colorbar.cpp">
+            <location file="tile.h" line="324" column="10" info="Function in derived class"/>
+            <location file="tile.h" line="192" column="18" info="Virtual function in base class"/>
+            <symbol>ExtractImage</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;Layer&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;Layer&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="colorbar.cpp">
+            <location file="tile.h" line="351" column="23" info="Function in derived class"/>
+            <location file="tile.h" line="94" column="31" info="Virtual function in base class"/>
+            <symbol>Layer</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;set&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;set&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="colorbar.cpp">
+            <location file="tile.h" line="354" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="86" column="18" info="Virtual function in base class"/>
+            <symbol>set</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;mapToAncestors&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;mapToAncestors&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="colorbar.cpp">
+            <location file="tile.h" line="365" column="10" info="Function in derived class"/>
+            <location file="tile.h" line="101" column="18" info="Virtual function in base class"/>
+            <symbol>mapToAncestors</symbol>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="colorbar.cpp">
+            <location file="colorbar.cpp" line="68" column="16"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="colorbar.cpp">
+            <location file="colorbar.cpp" line="84" column="15"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="ZTreeMgr.h:94:8" call-funcname="ReadData" call-argnr="2" file="ZTreeMgr.h" line="97" col="11" my-id="ZTreeMgr.h:96:15" my-argnr="4"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TreeNode" file="ZTreeMgr.h" line="18" col="1" hash="12582209069392340624"/>
+<class name="ElevDisplayParam" file="tile.h" line="49" col="1" hash="2206908051769139680"/>
+<class name="Colorbar" file="colorbar.h" line="14" col="1" hash="2342909712033585956"/>
+<class name="ColorbarOverlay" file="colorbar.h" line="38" col="1" hash="2338263282368062850"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="colorbar.h:29:7" my-argnr="1" my-argname="event" file="colorbar.cpp" line="98" col="20" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="colorbar.h:29:7" my-argnr="1" my-argname="event" file="colorbar.cpp" line="98" col="20" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="ZTreeMgr.h" functionName="size" lineNumber="64"/>
+    <functiondecl file="ZTreeMgr.h" functionName="NodeSizeDeflated" lineNumber="67"/>
+    <functiondecl file="ZTreeMgr.h" functionName="NodeSizeInflated" lineNumber="70"/>
+    <functiondecl file="ZTreeMgr.h" functionName="TOC" lineNumber="89"/>
+    <functiondecl file="ZTreeMgr.h" functionName="ReadData" lineNumber="96"/>
+    <functiondecl file="ZTreeMgr.h" functionName="NodeSizeDeflated" lineNumber="101"/>
+    <functiondecl file="ZTreeMgr.h" functionName="NodeSizeInflated" lineNumber="102"/>
+    <functiondecl file="tile.h" functionName="nLat" lineNumber="65"/>
+    <functiondecl file="tile.h" functionName="nLng" lineNumber="66"/>
+    <functiondecl file="tile.h" functionName="Level" lineNumber="77"/>
+    <functiondecl file="tile.h" functionName="iLat" lineNumber="78"/>
+    <functiondecl file="tile.h" functionName="iLng" lineNumber="79"/>
+    <functiondecl file="tile.h" functionName="subLevel" lineNumber="80"/>
+    <functiondecl file="tile.h" functionName="subiLat" lineNumber="81"/>
+    <functiondecl file="tile.h" functionName="subiLng" lineNumber="82"/>
+    <functiondecl file="tile.h" functionName="nLat" lineNumber="83"/>
+    <functiondecl file="tile.h" functionName="nLng" lineNumber="84"/>
+    <functiondecl file="tile.h" functionName="setLevel" lineNumber="87"/>
+    <functiondecl file="tile.h" functionName="setiLat" lineNumber="88"/>
+    <functiondecl file="tile.h" functionName="setiLng" lineNumber="89"/>
+    <functiondecl file="tile.h" functionName="setSubLevel" lineNumber="90"/>
+    <functiondecl file="tile.h" functionName="setSubiLat" lineNumber="91"/>
+    <functiondecl file="tile.h" functionName="setSubiLng" lineNumber="92"/>
+    <functiondecl file="tile.h" functionName="root" lineNumber="97"/>
+    <functiondecl file="tile.h" functionName="getData" lineNumber="129"/>
+    <functiondecl file="tile.h" functionName="getData" lineNumber="130"/>
+    <functiondecl file="tile.h" functionName="Level" lineNumber="179"/>
+    <functiondecl file="tile.h" functionName="iLat0" lineNumber="181"/>
+    <functiondecl file="tile.h" functionName="iLat1" lineNumber="182"/>
+    <functiondecl file="tile.h" functionName="iLng0" lineNumber="183"/>
+    <functiondecl file="tile.h" functionName="iLng1" lineNumber="184"/>
+    <functiondecl file="tile.h" functionName="nLat" lineNumber="185"/>
+    <functiondecl file="tile.h" functionName="nLng" lineNumber="186"/>
+    <functiondecl file="tile.h" functionName="iLng_norm" lineNumber="187"/>
+    <functiondecl file="tile.h" functionName="nLatBlock" lineNumber="188"/>
+    <functiondecl file="tile.h" functionName="nLngBlock" lineNumber="189"/>
+    <functiondecl file="tile.h" functionName="nBlock" lineNumber="190"/>
+    <functiondecl file="tile.h" functionName="getData" lineNumber="260"/>
+    <functiondecl file="tile.h" functionName="getData" lineNumber="261"/>
+    <functiondecl file="tile.h" functionName="getData" lineNumber="300"/>
+    <functiondecl file="tile.h" functionName="getBaseData" lineNumber="301"/>
+    <functiondecl file="tile.h" functionName="isModified" lineNumber="311"/>
+    <functiondecl file="tile.h" functionName="getData" lineNumber="356"/>
+    <functiondecl file="tile.h" functionName="getData" lineNumber="357"/>
+    <functiondecl file="tile.h" functionName="getBaseData" lineNumber="358"/>
+    <functiondecl file="tile.h" functionName="getBaseData" lineNumber="359"/>
+    <functiondecl file="tile.h" functionName="isModified" lineNumber="360"/>
+    <functiondecl file="colorbar.cpp" functionName="setTileMode" lineNumber="21"/>
+    <functiondecl file="colorbar.cpp" functionName="setElevDisplayParam" lineNumber="30"/>
+    <functiondecl file="colorbar.cpp" functionName="displayParamChanged" lineNumber="36"/>
+    <functiondecl file="colorbar.cpp" functionName="setScalarValue" lineNumber="42"/>
+    <functiondecl file="colorbar.cpp" functionName="setRGBValue" lineNumber="47"/>
+    <functiondecl file="colorbar.cpp" functionName="paintEvent" lineNumber="52"/>
+    <functiondecl file="colorbar.cpp" functionName="resizeEvent" lineNumber="96"/>
+    <functiondecl file="colorbar.cpp" functionName="setTileMode" lineNumber="119"/>
+    <functiondecl file="colorbar.cpp" functionName="setRange" lineNumber="127"/>
+    <functiondecl file="colorbar.cpp" functionName="setScalarValue" lineNumber="134"/>
+    <functiondecl file="colorbar.cpp" functionName="setRGBValue" lineNumber="141"/>
+    <functiondecl file="colorbar.cpp" functionName="paintEvent" lineNumber="150"/>
+    <functioncall functionName="Colorbar"/>
+    <functioncall functionName="ColorbarOverlay"/>
+    <functioncall functionName="DXT1Tile"/>
+    <functioncall functionName="ElevData"/>
+    <functioncall functionName="ElevDisplayParam"/>
+    <functioncall functionName="ElevTileBlock"/>
+    <functioncall functionName="Format_ARGB32"/>
+    <functioncall functionName="Idx"/>
+    <functioncall functionName="Image"/>
+    <functioncall functionName="NodeSizeDeflated"/>
+    <functioncall functionName="NodeSizeInflated"/>
+    <functioncall functionName="QColor"/>
+    <functioncall functionName="QPen"/>
+    <functioncall functionName="QWidget"/>
+    <functioncall functionName="ReadData"/>
+    <functioncall functionName="SolidLine"/>
+    <functioncall functionName="SurfTileBlock"/>
+    <functioncall functionName="Tile"/>
+    <functioncall functionName="TileBlock"/>
+    <functioncall functionName="TreeNode"/>
+    <functioncall functionName="ZTreeMgr"/>
+    <functioncall functionName="cmap"/>
+    <functioncall functionName="drawImage"/>
+    <functioncall functionName="drawLine"/>
+    <functioncall functionName="drawRect"/>
+    <functioncall functionName="drawText"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fillRect"/>
+    <functioncall functionName="fontMetrics"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="horizontalAdvance"/>
+    <functioncall functionName="left"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="nLat"/>
+    <functioncall functionName="nLng"/>
+    <functioncall functionName="number"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="rect"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="setBrush"/>
+    <functioncall functionName="setColor"/>
+    <functioncall functionName="setPen"/>
+    <functioncall functionName="setRGBValue"/>
+    <functioncall functionName="setRange"/>
+    <functioncall functionName="setScalarValue"/>
+    <functioncall functionName="setStyle"/>
+    <functioncall functionName="setTileMode"/>
+    <functioncall functionName="setWidth"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sprintf"/>
+    <functioncall functionName="strcpy"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="top"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="update"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="width"/>
+  </FileInfo>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &apos;_M_X64;__x86_64__&apos; was not checked because its code equals another one." verbose="The configuration &apos;_M_X64;__x86_64__&apos; was not checked because its code equals another one.">
+            <location file="colorbar.cpp" line="0" column="0"/>
+        </error>
+</analyzerinfo>

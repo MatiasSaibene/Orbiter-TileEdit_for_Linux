@@ -1,0 +1,23 @@
+TreeNode
+size
+operator[]
+NodeSizeDeflated call:[return]
+NodeSizeInflated
+TOC
+ReadData call:[Idx,ReadData] noreturn:[ReadData]
+NodeSizeDeflated call:[NodeSizeDeflated] noreturn:[NodeSizeDeflated]
+NodeSizeInflated call:[NodeSizeInflated] noreturn:[NodeSizeInflated]
+TreeFileHeader call:[sizeof]
+fwrite call:[fwrite,sizeof] noreturn:[fwrite]
+fread call:[fread,memcmp,sizeof]
+TreeTOC
+TreeTOC
+fread call:[fread,sizeof] noreturn:[fread]
+CreateFromFile call:[TOC,ZTreeMgr,size]
+ZTreeMgr call:[OpenArchive,strcpy,strlen] noreturn:[OpenArchive]
+ZTreeMgr call:[fclose] noreturn:[fclose]
+OpenArchive call:[fclose,fopen,fread,sprintf]
+Idx call:[Idx,return] noreturn:[return]
+ReadData call:[Inflate,NodeSizeDeflated,NodeSizeInflated,fread,fseeko64]
+Inflate call:[uncompress]
+ReleaseData

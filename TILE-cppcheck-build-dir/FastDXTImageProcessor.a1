@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="2190444909630300431">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;osg/Texture&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;osg/Texture&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="20" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;osgDB/Registry&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;osgDB/Registry&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="21" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;osg/Notify&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;osg/Notify&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="22" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;osgEarth/ImageUtils&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;osgEarth/ImageUtils&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="23" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="24" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/dxt.h" line="30" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/dxt.h" line="31" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/dxt.h" line="32" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/dxt.h" line="33" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;math.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;math.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/dxt.h" line="34" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="26" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="27" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="30" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="31" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/stat.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/stat.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="32" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="33" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="36" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="37" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/stat.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/stat.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="45" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="46" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;fcntl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;fcntl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="47" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdarg.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdarg.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="49" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;malloc.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;malloc.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="70" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="26" column="0"/>
+        </error>
+        <error id="normalCheckLevelConditionExpressions" severity="debug" msg="Analysis of condition expressions is disabled. Use --check-level=exhaustive to enable it." verbose="Analysis of condition expressions is disabled. Use --check-level=exhaustive to enable it." file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="0" column="0"/>
+        </error>
+        <error id="nullPointerOutOfMemory" severity="warning" msg="If memory allocation fails, then there is a possible null pointer dereference: data" verbose="If memory allocation fails, then there is a possible null pointer dereference: data" cwe="476" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="92" column="16" info="Null pointer dereference"/>
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="91" column="31" info="Assignment &apos;data=(unsigned char*)malloc(outputBytes)&apos;, assigned value is 0"/>
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="91" column="53" info="Assuming allocation function fails"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="76" column="14"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="82" column="30"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="91" column="31"/>
+        </error>
+  <FileInfo check="Class">
+<class name="FastDXTProcessor" file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="28" col="1" hash="8824777435878792766"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="CompressDXT"/>
+    <functioncall functionName="GL_COMPRESSED_RGBA_S3TC_DXT5_EXT"/>
+    <functioncall functionName="GL_COMPRESSED_RGB_S3TC_DXT1_EXT"/>
+    <functioncall functionName="GL_UNSIGNED_BYTE"/>
+    <functioncall functionName="Image"/>
+    <functioncall functionName="REGISTER_OSGIMAGEPROCESSOR"/>
+    <functioncall functionName="USE_MALLOC_FREE"/>
+    <functioncall functionName="computeNearestPowerOfTwo"/>
+    <functioncall functionName="convertToRGBA8"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="delta_m"/>
+    <functioncall functionName="fastdxt"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getPixelFormat"/>
+    <functioncall functionName="getTotalSizeInBytes"/>
+    <functioncall functionName="instance"/>
+    <functioncall functionName="isPowerOfTwo"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memalign"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="r"/>
+    <functioncall functionName="ref_ptr"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="scaleImage"/>
+    <functioncall functionName="setImage"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="t"/>
+    <functioncall functionName="tick"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &apos;MAX_INT&apos; was not checked because its code equals another one." verbose="The configuration &apos;MAX_INT&apos; was not checked because its code equals another one.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="Class">
+<class name="FastDXTProcessor" file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="28" col="1" hash="2730161299771372595"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="CompressDXT"/>
+    <functioncall functionName="GL_COMPRESSED_RGBA_S3TC_DXT5_EXT"/>
+    <functioncall functionName="GL_COMPRESSED_RGB_S3TC_DXT1_EXT"/>
+    <functioncall functionName="GL_UNSIGNED_BYTE"/>
+    <functioncall functionName="Image"/>
+    <functioncall functionName="REGISTER_OSGIMAGEPROCESSOR"/>
+    <functioncall functionName="USE_MALLOC_FREE"/>
+    <functioncall functionName="aligned_free"/>
+    <functioncall functionName="aligned_malloc"/>
+    <functioncall functionName="computeNearestPowerOfTwo"/>
+    <functioncall functionName="convertToRGBA8"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="delta_m"/>
+    <functioncall functionName="fastdxt"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getPixelFormat"/>
+    <functioncall functionName="getTotalSizeInBytes"/>
+    <functioncall functionName="instance"/>
+    <functioncall functionName="isPowerOfTwo"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="r"/>
+    <functioncall functionName="ref_ptr"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="scaleImage"/>
+    <functioncall functionName="setImage"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="t"/>
+    <functioncall functionName="tick"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;windows.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;windows.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/util.h" line="40" column="0"/>
+        </error>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &apos;_WIN32&apos; was not checked because its code equals another one." verbose="The configuration &apos;_WIN32&apos; was not checked because its code equals another one.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="0" column="0"/>
+        </error>
+        <error id="nullPointerOutOfMemory" severity="warning" msg="If memory allocation fails, then there is a possible null pointer dereference: in" verbose="If memory allocation fails, then there is a possible null pointer dereference: in" cwe="476" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="77" column="16" info="Null pointer dereference"/>
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="76" column="14" info="Assignment &apos;in=(unsigned char*)malloc(sourceImage-&gt;getTotalSizeInBytes())&apos;, assigned value is 0"/>
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="76" column="30" info="Assuming allocation function fails"/>
+            <symbol>in</symbol>
+        </error>
+        <error id="nullPointerOutOfMemory" severity="warning" msg="If memory allocation fails, then there is a possible null pointer dereference: out" verbose="If memory allocation fails, then there is a possible null pointer dereference: out" cwe="476" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="83" column="16" info="Null pointer dereference"/>
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="82" column="30" info="Assignment &apos;out=(unsigned char*)malloc(image.s()*image.t()*4)&apos;, assigned value is 0"/>
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="82" column="46" info="Assuming allocation function fails"/>
+            <symbol>out</symbol>
+        </error>
+        <error id="nullPointerOutOfMemory" severity="warning" msg="If memory allocation fails, then there is a possible null pointer dereference: out" verbose="If memory allocation fails, then there is a possible null pointer dereference: out" cwe="476" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="92" column="22" info="Null pointer dereference"/>
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="82" column="30" info="Assignment &apos;out=(unsigned char*)malloc(image.s()*image.t()*4)&apos;, assigned value is 0"/>
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="82" column="46" info="Assuming allocation function fails"/>
+            <symbol>out</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/libdxt.h:33:5" call-funcname="CompressDXT" call-argnr="1" file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="86" col="38" call-argexpr="in" call-argvaluetype="0" call-argvalue="0" call-argvalue-ufr="1">
+  <path file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="76" col="30" info="Assuming allocation function fails"/>
+  <path file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="76" col="14" info="Assignment &apos;in=(unsigned char*)malloc(sourceImage-&gt;getTotalSizeInBytes())&apos;, assigned value is 0"/>
+</function-call><function-call call-id="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/libdxt.h:33:5" call-funcname="CompressDXT" call-argnr="2" file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="86" col="38" call-argexpr="out" call-argvaluetype="0" call-argvalue="0" call-argvalue-ufr="1">
+  <path file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="82" col="46" info="Assuming allocation function fails"/>
+  <path file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="82" col="30" info="Assignment &apos;out=(unsigned char*)malloc(image.s()*image.t()*4)&apos;, assigned value is 0"/>
+</function-call>  </FileInfo>
+  <FileInfo check="Class">
+<class name="FastDXTProcessor" file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="28" col="1" hash="16320148869985571571"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="CompressDXT"/>
+    <functioncall functionName="GL_COMPRESSED_RGBA_S3TC_DXT5_EXT"/>
+    <functioncall functionName="GL_COMPRESSED_RGB_S3TC_DXT1_EXT"/>
+    <functioncall functionName="GL_UNSIGNED_BYTE"/>
+    <functioncall functionName="Image"/>
+    <functioncall functionName="REGISTER_OSGIMAGEPROCESSOR"/>
+    <functioncall functionName="USE_MALLOC_FREE"/>
+    <functioncall functionName="computeNearestPowerOfTwo"/>
+    <functioncall functionName="convertToRGBA8"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="delta_m"/>
+    <functioncall functionName="fastdxt"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="getPixelFormat"/>
+    <functioncall functionName="getTotalSizeInBytes"/>
+    <functioncall functionName="instance"/>
+    <functioncall functionName="isPowerOfTwo"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="r"/>
+    <functioncall functionName="ref_ptr"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="scaleImage"/>
+    <functioncall functionName="setImage"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="t"/>
+    <functioncall functionName="tick"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &apos;__GNUC__&apos; was not checked because its code equals another one." verbose="The configuration &apos;__GNUC__&apos; was not checked because its code equals another one.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/extern/fastdxt/FastDXTImageProcessor.cpp" line="0" column="0"/>
+        </error>
+</analyzerinfo>

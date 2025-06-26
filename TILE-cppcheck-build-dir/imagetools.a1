@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="1898645502281777499">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="imagetools.h" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="windows_compat.h" line="8" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="windows_compat.h" line="9" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;QColor&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;QColor&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="imagetools.cpp" line="2" column="0"/>
+        </error>
+        <error id="normalCheckLevelConditionExpressions" severity="debug" msg="Analysis of condition expressions is disabled. Use --check-level=exhaustive to enable it." verbose="Analysis of condition expressions is disabled. Use --check-level=exhaustive to enable it." file0="imagetools.cpp">
+            <location file="imagetools.cpp" line="0" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4482:(valueFlow) bailout: variable &apos;sub.height&apos; used in loop" verbose="valueflow.cpp:4482:(valueFlow) bailout: variable &apos;sub.height&apos; used in loop" file0="imagetools.cpp">
+            <location file="imagetools.cpp" line="22" column="20"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: y is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: y is changed in conditional block" file0="imagetools.cpp">
+            <location file="imagetools.cpp" line="24" column="2"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="imagetools.cpp">
+            <location file="imagetools.cpp" line="0" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="imagetools.cpp">
+            <location file="imagetools.cpp" line="63" column="2"/>
+        </error>
+  <FileInfo check="Class">
+<class name="Image" file="imagetools.h" line="10" col="1" hash="14934950102804313097"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="imagetools.h:16:9" my-argnr="1" my-argname="img" file="imagetools.cpp" line="6" col="9" value="0"/>
+    <unsafe-usage my-id="imagetools.h:17:8" my-argnr="1" my-argname="xrange" file="imagetools.cpp" line="15" col="14" value="0"/>
+    <unsafe-usage my-id="imagetools.h:17:8" my-argnr="2" my-argname="yrange" file="imagetools.cpp" line="16" col="15" value="0"/>
+    <unsafe-usage my-id="imagetools.h:20:6" my-argnr="1" my-argname="im1" file="imagetools.cpp" line="30" col="10" value="0"/>
+    <unsafe-usage my-id="imagetools.h:21:6" my-argnr="1" my-argname="im1" file="imagetools.cpp" line="68" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="imagetools.cpp" functionName="SubImage" lineNumber="12"/>
+    <functiondecl file="imagetools.cpp" functionName="match_histogram" lineNumber="28"/>
+    <functiondecl file="imagetools.cpp" functionName="match_hue_sat" lineNumber="66"/>
+    <functioncall functionName="Image"/>
+    <functioncall functionName="blue"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="getHsv"/>
+    <functioncall functionName="green"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="red"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="setHsv"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &apos;_M_X64;__x86_64__&apos; was not checked because its code equals another one." verbose="The configuration &apos;_M_X64;__x86_64__&apos; was not checked because its code equals another one.">
+            <location file="imagetools.cpp" line="0" column="0"/>
+        </error>
+</analyzerinfo>

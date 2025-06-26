@@ -1,0 +1,85 @@
+Image
+TreeNode
+size
+operator[]
+NodeSizeDeflated call:[return]
+NodeSizeInflated
+TOC
+ReadData call:[Idx,ReadData] noreturn:[ReadData]
+NodeSizeDeflated call:[NodeSizeDeflated] noreturn:[NodeSizeDeflated]
+NodeSizeInflated call:[NodeSizeInflated] noreturn:[NodeSizeInflated]
+ElevDisplayParam
+nLat call:[return] noreturn:[return]
+nLng call:[return] noreturn:[return]
+Level
+iLat
+iLng
+subLevel
+subiLat
+subiLng
+nLat call:[nLat] noreturn:[nLat]
+nLng call:[nLng] noreturn:[nLng]
+setLevel
+setiLat
+setiLng
+setSubLevel
+setSubiLat
+setSubiLng
+root
+mapToAncestors
+getData
+getData
+Layer call:[string] noreturn:[string]
+Layer call:[string] noreturn:[string]
+Level
+iLat0
+iLat1
+iLng0
+iLng1
+nLat call:[return] noreturn:[return]
+nLng call:[return] noreturn:[return]
+iLng_norm call:[nLng]
+nLatBlock
+nLngBlock
+nBlock
+setTile
+syncTile
+ExtractImage
+getData
+getData
+getData
+getBaseData
+isModified
+Layer call:[string] noreturn:[string]
+getData
+getData
+getBaseData
+getBaseData
+isModified
+ElevData
+ElevData
+operator=
+nodeValue
+setNodeValue
+RescanLimits call:[begin,end,minmax_element,size]
+SubTile call:[begin,data,end,max_element,memcpy,min_element,resize,sizeof] noreturn:[memcpy]
+ElevTile
+ElevTile
+set call:[set]
+nodeElevation call:[return]
+RescanLimits call:[RescanLimits] noreturn:[RescanLimits]
+Load call:[LoadData,LoadModData,LoadSubset,RescanLimits,size] noreturn:[LoadModData,LoadSubset]
+InterpolateFromAncestor call:[InterpolateFromAncestor,Load,ProlongToChildren,copyTile,parent,resize]
+LoadData call:[Layer,ReadData,ReleaseData,c_str,elvread,elvscan,size,sprintf] noreturn:[ReleaseData,elvread]
+LoadModData call:[Layer,ReadData,ReleaseData,c_str,elvmodread,elvmodscan,sprintf] noreturn:[ReleaseData,elvmodread]
+LoadSubset call:[LoadData,LoadModData,LoadSubset,SubTile,size] noreturn:[LoadSubset,SubTile]
+Save call:[Layer,RescanLimits,c_str,elvwrite,ensureLayerDir,sprintf]
+SaveMod call:[Layer,RescanLimits,c_str,elvmodwrite,ensureLayerDir,sprintf]
+MatchNeighbourTiles call:[Load,SaveMod,copyTile,dataChanged,etile3,fabs,getData,nLat,nLng,setTile,size,tileGrid] noreturn:[setTile]
+mapToAncestors call:[Load,SaveMod,dataChanged,fabs,getData,mapToAncestors] noreturn:[mapToAncestors]
+ProlongToChildren call:[ElevTileBlock,_getTile,getBaseData,getData,nodeValue,setSubLevel,setSubiLat,setSubiLng,syncTiles] noreturn:[nodeValue,setSubiLng]
+setWaterMask call:[getData,resize]
+Load call:[ElevTile,Load]
+InterpolateFromAncestor call:[ElevTile,InterpolateFromAncestor]
+setTreeMgr
+dataChanged

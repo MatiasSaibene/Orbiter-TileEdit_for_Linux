@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16058264153217462597">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="tilecanvas.cpp" line="1" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="windows_compat.h" line="8" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="windows_compat.h" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;QWidget&quot; not found." verbose="Include file: &quot;QWidget&quot; not found.">
+            <location file="tilecanvas.h" line="8" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;QBoxLayout&quot; not found." verbose="Include file: &quot;QBoxLayout&quot; not found.">
+            <location file="tilecanvas.h" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;QPen&quot; not found." verbose="Include file: &quot;QPen&quot; not found.">
+            <location file="tilecanvas.h" line="10" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="tile.h" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="imagetools.h" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="ZTreeMgr.h" line="12" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;random&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;random&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="tileedit.h" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;QMainWindow&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;QMainWindow&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="tileedit.h" line="9" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;QLabel&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;QLabel&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="tileedit.h" line="10" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;QComboBox&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;QComboBox&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="tileedit.h" line="11" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;QDoubleSpinBox&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;QDoubleSpinBox&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="tileedit.h" line="12" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;QSettings&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;QSettings&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="tileedit.h" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;QWidget&quot; not found." verbose="Include file: &quot;QWidget&quot; not found.">
+            <location file="colorbar.h" line="7" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;QPen&quot; not found." verbose="Include file: &quot;QPen&quot; not found.">
+            <location file="colorbar.h" line="8" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;QPainter&quot; not found." verbose="Include file: &quot;QPainter&quot; not found.">
+            <location file="tilecanvas.cpp" line="4" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;QResizeEvent&quot; not found." verbose="Include file: &quot;QResizeEvent&quot; not found.">
+            <location file="tilecanvas.cpp" line="5" column="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If slots is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If slots is a macro then please configure it." file0="tilecanvas.cpp">
+            <location file="tileedit.h" line="71" column="9"/>
+        </error>
+</analyzerinfo>

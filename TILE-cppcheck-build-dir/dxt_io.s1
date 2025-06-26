@@ -1,0 +1,63 @@
+Image
+TreeNode
+size
+operator[]
+NodeSizeDeflated call:[return]
+NodeSizeInflated
+TOC
+ReadData call:[Idx,ReadData] noreturn:[ReadData]
+NodeSizeDeflated call:[NodeSizeDeflated] noreturn:[NodeSizeDeflated]
+NodeSizeInflated call:[NodeSizeInflated] noreturn:[NodeSizeInflated]
+ElevDisplayParam
+nLat call:[return] noreturn:[return]
+nLng call:[return] noreturn:[return]
+Level
+iLat
+iLng
+subLevel
+subiLat
+subiLng
+nLat call:[nLat] noreturn:[nLat]
+nLng call:[nLng] noreturn:[nLng]
+setLevel
+setiLat
+setiLng
+setSubLevel
+setSubiLat
+setSubiLng
+root
+mapToAncestors
+getData
+getData
+Layer call:[string] noreturn:[string]
+Layer call:[string] noreturn:[string]
+Level
+iLat0
+iLat1
+iLng0
+iLng1
+nLat call:[return] noreturn:[return]
+nLng call:[return] noreturn:[return]
+iLng_norm call:[nLng]
+nLatBlock
+nLngBlock
+nBlock
+setTile
+syncTile
+ExtractImage
+getData
+getData
+getData
+getBaseData
+isModified
+Layer call:[string] noreturn:[string]
+getData
+getData
+getBaseData
+getBaseData
+isModified
+setdxt1header call:[memset,sizeof]
+dxt1write call:[CompressDXT,data,fclose,fopen,fwrite,setdxt1header,sizeof]
+pngread_tmp call:[data,memset,png_image_begin_read_from_file,png_image_finish_read,png_image_free,resize,sizeof] noreturn:[png_image_finish_read]
+pngwrite_tmp call:[data,png_image_free,png_image_write_to_file] noreturn:[png_image_free]
+dxtread_png call:[data,match_histogram,match_hue_sat,memcpy,memset,png_image_begin_read_from_file,png_image_finish_read,png_image_free,resize,sizeof] noreturn:[memcpy]

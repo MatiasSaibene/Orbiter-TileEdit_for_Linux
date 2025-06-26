@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="8720739448522164460">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;QWidget&quot; not found." verbose="Include file: &quot;QWidget&quot; not found.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/colorbar.h" line="7" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;QPen&quot; not found." verbose="Include file: &quot;QPen&quot; not found.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/colorbar.h" line="8" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/windows_compat.h" line="8" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/windows_compat.h" line="9" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/tile.h" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/imagetools.h" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/ZTreeMgr.h" line="12" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;QtCore/qmetatype.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;QtCore/qmetatype.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/build/ext4-Debug/TileEditForLinux_autogen/EWIEGA46WW/moc_colorbar.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;QtCore/qtmochelpers.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;QtCore/qtmochelpers.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/build/ext4-Debug/TileEditForLinux_autogen/EWIEGA46WW/moc_colorbar.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/build/ext4-Debug/TileEditForLinux_autogen/EWIEGA46WW/moc_colorbar.cpp" line="14" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;QtCore/qxptype_traits.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;QtCore/qxptype_traits.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/build/ext4-Debug/TileEditForLinux_autogen/EWIEGA46WW/moc_colorbar.cpp" line="17" column="0"/>
+        </error>
+        <error id="preprocessorErrorDirective" severity="error" msg="#error &quot;The header file &apos;colorbar.h&apos; doesn&apos;t include &lt;QObject&gt;.&quot;" verbose="#error &quot;The header file &apos;colorbar.h&apos; doesn&apos;t include &lt;QObject&gt;.&quot;" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/build/ext4-Debug/TileEditForLinux_autogen/mocs_compilation.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/build/ext4-Debug/TileEditForLinux_autogen/EWIEGA46WW/moc_colorbar.cpp" line="19" column="2"/>
+        </error>
+        <error id="noValidConfiguration" severity="information" msg="This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details." verbose="This file is not analyzed. Cppcheck failed to extract a valid configuration. The tested configurations have these preprocessor errors:\012&apos;&apos; : [/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/build/ext4-Debug/TileEditForLinux_autogen/EWIEGA46WW/moc_colorbar.cpp:19] #error &quot;The header file &apos;colorbar.h&apos; doesn&apos;t include &lt;QObject&gt;.&quot;\012Q_MOC_OUTPUT_REVISION : [/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/build/ext4-Debug/TileEditForLinux_autogen/EWIEGA46WW/moc_colorbar.cpp:21] #error &quot;This file was generated using the moc from 6.9.1. It&quot;\012_M_X64;__x86_64__ : [/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/build/ext4-Debug/TileEditForLinux_autogen/EWIEGA46WW/moc_colorbar.cpp:19] #error &quot;The header file &apos;colorbar.h&apos; doesn&apos;t include &lt;QObject&gt;.&quot;" file0="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/build/ext4-Debug/TileEditForLinux_autogen/mocs_compilation.cpp">
+            <location file="/home/matias/Documentos/Diseno_3D/Orbiter/Blender2Orbiter/Ejemplos_y_herramientas/TILEEDIT/TileEditForLinux/build/ext4-Debug/TileEditForLinux_autogen/mocs_compilation.cpp" line="0" column="0"/>
+        </error>
+</analyzerinfo>

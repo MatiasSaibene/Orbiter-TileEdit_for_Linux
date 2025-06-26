@@ -1,0 +1,379 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="529109815340991117">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdint&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="windows_compat.h" line="8" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="windows_compat.h" line="9" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstring&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstring&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="elv_io.cpp" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="elv_io.cpp" line="3" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="elv_io.cpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;math.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;math.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="elv_io.cpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;png.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;png.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="elv_io.cpp" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="tile.h" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="imagetools.h" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="ZTreeMgr.h" line="12" column="0"/>
+        </error>
+        <error id="normalCheckLevelConditionExpressions" severity="debug" msg="Analysis of condition expressions is disabled. Use --check-level=exhaustive to enable it." verbose="Analysis of condition expressions is disabled. Use --check-level=exhaustive to enable it." file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="0" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: scale is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: scale is changed in conditional block" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="133" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: edata.dres is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: edata.dres is changed in conditional block" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="133" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: scale is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: scale is changed in conditional block" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="237" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: edata.dres is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: edata.dres is changed in conditional block" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="237" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: j is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: j is changed in conditional block" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="265" column="2"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: i is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: i is changed in conditional block" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="264" column="3"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: j is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: j is changed in conditional block" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="342" column="2"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: i is changed in conditional block" verbose="valueflow.cpp:4746:(valueFlow) bailout: valueFlowAfterCondition: i is changed in conditional block" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="341" column="3"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="43" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="98" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="156" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="205" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="289" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="296" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="366" column="0"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:4755:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="373" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="0" column="0"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;set&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;set&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elv_io.cpp">
+            <location file="tile.h" line="128" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="86" column="18" info="Virtual function in base class"/>
+            <symbol>set</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;Layer&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;Layer&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elv_io.cpp">
+            <location file="tile.h" line="153" column="23" info="Function in derived class"/>
+            <location file="tile.h" line="94" column="31" info="Virtual function in base class"/>
+            <symbol>Layer</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;mapToAncestors&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;mapToAncestors&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elv_io.cpp">
+            <location file="tile.h" line="154" column="10" info="Function in derived class"/>
+            <location file="tile.h" line="101" column="18" info="Virtual function in base class"/>
+            <symbol>mapToAncestors</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;Layer&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;Layer&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elv_io.cpp">
+            <location file="tile.h" line="166" column="23" info="Function in derived class"/>
+            <location file="tile.h" line="94" column="31" info="Virtual function in base class"/>
+            <symbol>Layer</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;ExtractImage&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;ExtractImage&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elv_io.cpp">
+            <location file="tile.h" line="258" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="192" column="18" info="Virtual function in base class"/>
+            <symbol>ExtractImage</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elv_io.cpp">
+            <location file="tile.h" line="273" column="19" info="Function in derived class"/>
+            <location file="tile.h" line="212" column="19" info="Virtual function in base class"/>
+            <symbol>copyTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elv_io.cpp">
+            <location file="tile.h" line="274" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="217" column="18" info="Virtual function in base class"/>
+            <symbol>copyTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;syncTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;syncTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elv_io.cpp">
+            <location file="tile.h" line="275" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="222" column="18" info="Virtual function in base class"/>
+            <symbol>syncTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elv_io.cpp">
+            <location file="tile.h" line="283" column="19" info="Function in derived class"/>
+            <location file="tile.h" line="212" column="19" info="Virtual function in base class"/>
+            <symbol>copyTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elv_io.cpp">
+            <location file="tile.h" line="284" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="217" column="18" info="Virtual function in base class"/>
+            <symbol>copyTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;ExtractImage&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;ExtractImage&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elv_io.cpp">
+            <location file="tile.h" line="285" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="258" column="18" info="Virtual function in base class"/>
+            <symbol>ExtractImage</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;setTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;setTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elv_io.cpp">
+            <location file="tile.h" line="299" column="10" info="Function in derived class"/>
+            <location file="tile.h" line="194" column="18" info="Virtual function in base class"/>
+            <symbol>setTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elv_io.cpp">
+            <location file="tile.h" line="302" column="19" info="Function in derived class"/>
+            <location file="tile.h" line="212" column="19" info="Virtual function in base class"/>
+            <symbol>copyTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;copyTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elv_io.cpp">
+            <location file="tile.h" line="303" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="217" column="18" info="Virtual function in base class"/>
+            <symbol>copyTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;syncTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;syncTile&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elv_io.cpp">
+            <location file="tile.h" line="317" column="10" info="Function in derived class"/>
+            <location file="tile.h" line="222" column="18" info="Virtual function in base class"/>
+            <symbol>syncTile</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;ExtractImage&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;ExtractImage&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elv_io.cpp">
+            <location file="tile.h" line="324" column="10" info="Function in derived class"/>
+            <location file="tile.h" line="192" column="18" info="Virtual function in base class"/>
+            <symbol>ExtractImage</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;Layer&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;Layer&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elv_io.cpp">
+            <location file="tile.h" line="351" column="23" info="Function in derived class"/>
+            <location file="tile.h" line="94" column="31" info="Virtual function in base class"/>
+            <symbol>Layer</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;set&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;set&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elv_io.cpp">
+            <location file="tile.h" line="354" column="18" info="Function in derived class"/>
+            <location file="tile.h" line="86" column="18" info="Virtual function in base class"/>
+            <symbol>set</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;mapToAncestors&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;mapToAncestors&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="elv_io.cpp">
+            <location file="tile.h" line="365" column="10" info="Function in derived class"/>
+            <location file="tile.h" line="101" column="18" info="Virtual function in base class"/>
+            <symbol>mapToAncestors</symbol>
+        </error>
+        <error id="resourceLeak" severity="error" msg="Resource leak: f" verbose="Resource leak: f" cwe="775" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="43" column="3"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="resourceLeak" severity="error" msg="Resource leak: f" verbose="Resource leak: f" cwe="775" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="98" column="3"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="nullPointerOutOfResources" severity="warning" msg="If resource allocation fails, then there is a possible null pointer dereference: f" verbose="If resource allocation fails, then there is a possible null pointer dereference: f" cwe="476" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="301" column="42" info="Null pointer dereference"/>
+            <location file="elv_io.cpp" line="300" column="17" info="Assignment &apos;f=fopen(fname,&quot;wb&quot;)&apos;, assigned value is 0"/>
+            <location file="elv_io.cpp" line="300" column="17" info="Assuming allocation function fails"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="nullPointerOutOfResources" severity="warning" msg="If resource allocation fails, then there is a possible null pointer dereference: f" verbose="If resource allocation fails, then there is a possible null pointer dereference: f" cwe="476" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="314" column="9" info="Null pointer dereference"/>
+            <location file="elv_io.cpp" line="300" column="17" info="Assignment &apos;f=fopen(fname,&quot;wb&quot;)&apos;, assigned value is 0"/>
+            <location file="elv_io.cpp" line="300" column="17" info="Assuming allocation function fails"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="nullPointerOutOfResources" severity="warning" msg="If resource allocation fails, then there is a possible null pointer dereference: f" verbose="If resource allocation fails, then there is a possible null pointer dereference: f" cwe="476" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="378" column="42" info="Null pointer dereference"/>
+            <location file="elv_io.cpp" line="377" column="17" info="Assignment &apos;f=fopen(fname,&quot;wb&quot;)&apos;, assigned value is 0"/>
+            <location file="elv_io.cpp" line="377" column="17" info="Assuming allocation function fails"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="nullPointerOutOfResources" severity="warning" msg="If resource allocation fails, then there is a possible null pointer dereference: f" verbose="If resource allocation fails, then there is a possible null pointer dereference: f" cwe="476" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="393" column="9" info="Null pointer dereference"/>
+            <location file="elv_io.cpp" line="377" column="17" info="Assignment &apos;f=fopen(fname,&quot;wb&quot;)&apos;, assigned value is 0"/>
+            <location file="elv_io.cpp" line="377" column="17" info="Assuming allocation function fails"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="171" column="23"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="176" column="33"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="217" column="23"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="225" column="33"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;data_uint8&apos; can be declared as pointer to const" verbose="Variable &apos;data_uint8&apos; can be declared as pointer to const" cwe="398" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="171" column="10" info="Variable &apos;data_uint8&apos; can be declared as pointer to const"/>
+            <symbol>data_uint8</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;data_int16_t&apos; can be declared as pointer to const" verbose="Variable &apos;data_int16_t&apos; can be declared as pointer to const" cwe="398" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="176" column="18" info="Variable &apos;data_int16_t&apos; can be declared as pointer to const"/>
+            <symbol>data_int16_t</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;data_uint8&apos; can be declared as pointer to const" verbose="Variable &apos;data_uint8&apos; can be declared as pointer to const" cwe="398" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="217" column="10" info="Variable &apos;data_uint8&apos; can be declared as pointer to const"/>
+            <symbol>data_uint8</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;data_int16_t&apos; can be declared as pointer to const" verbose="Variable &apos;data_int16_t&apos; can be declared as pointer to const" cwe="398" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="225" column="18" info="Variable &apos;data_int16_t&apos; can be declared as pointer to const"/>
+            <symbol>data_int16_t</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;offset&apos; is assigned a value that is never used." verbose="Variable &apos;offset&apos; is assigned a value that is never used." cwe="563" file0="elv_io.cpp">
+            <location file="elv_io.cpp" line="417" column="17"/>
+            <symbol>offset</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="ZTreeMgr.h:94:8" call-funcname="ReadData" call-argnr="2" file="ZTreeMgr.h" line="97" col="11" my-id="ZTreeMgr.h:96:15" my-argnr="4"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TreeNode" file="ZTreeMgr.h" line="18" col="1" hash="12582209069392340624"/>
+<class name="ElevDisplayParam" file="tile.h" line="49" col="1" hash="2206908051769139680"/>
+<class name="ElevPatchMetaInfo" file="elv_io.h" line="9" col="1" hash="5356685785373992591"/>
+<class name="ELEVFILEHEADER" file="elv_io.cpp" line="12" col="1" hash="6970433458541125939"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="elv_io.h:21:10" my-argnr="1" my-argname="fname" file="elv_io.cpp" line="37" col="18" value="0"/>
+    <unsafe-usage my-id="elv_io.h:22:6" my-argnr="1" my-argname="fname" file="elv_io.cpp" line="92" col="18" value="0"/>
+    <unsafe-usage my-id="elv_io.h:27:6" my-argnr="1" my-argname="fname" file="elv_io.cpp" line="300" col="18" value="0"/>
+    <unsafe-usage my-id="elv_io.h:28:6" my-argnr="1" my-argname="fname" file="elv_io.cpp" line="377" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="elv_io.h:21:10" my-argnr="1" my-argname="fname" file="elv_io.cpp" line="37" col="18" value="0"/>
+    <unsafe-usage my-id="elv_io.h:22:6" my-argnr="1" my-argname="fname" file="elv_io.cpp" line="92" col="18" value="0"/>
+    <unsafe-usage my-id="elv_io.h:27:6" my-argnr="1" my-argname="fname" file="elv_io.cpp" line="300" col="18" value="0"/>
+    <unsafe-usage my-id="elv_io.h:27:6" my-argnr="2" my-argname="edata" file="elv_io.cpp" line="257" col="13" value="0"/>
+    <unsafe-usage my-id="elv_io.h:28:6" my-argnr="1" my-argname="fname" file="elv_io.cpp" line="377" col="18" value="0"/>
+    <unsafe-usage my-id="elv_io.h:28:6" my-argnr="2" my-argname="edata" file="elv_io.cpp" line="334" col="13" value="0"/>
+    <unsafe-usage my-id="elv_io.h:31:6" my-argnr="2" my-argname="edata" file="elv_io.cpp" line="442" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="ZTreeMgr.h" functionName="size" lineNumber="64"/>
+    <functiondecl file="ZTreeMgr.h" functionName="NodeSizeDeflated" lineNumber="67"/>
+    <functiondecl file="ZTreeMgr.h" functionName="NodeSizeInflated" lineNumber="70"/>
+    <functiondecl file="ZTreeMgr.h" functionName="TOC" lineNumber="89"/>
+    <functiondecl file="ZTreeMgr.h" functionName="ReadData" lineNumber="96"/>
+    <functiondecl file="ZTreeMgr.h" functionName="NodeSizeDeflated" lineNumber="101"/>
+    <functiondecl file="ZTreeMgr.h" functionName="NodeSizeInflated" lineNumber="102"/>
+    <functiondecl file="tile.h" functionName="nLat" lineNumber="65"/>
+    <functiondecl file="tile.h" functionName="nLng" lineNumber="66"/>
+    <functiondecl file="tile.h" functionName="Level" lineNumber="77"/>
+    <functiondecl file="tile.h" functionName="iLat" lineNumber="78"/>
+    <functiondecl file="tile.h" functionName="iLng" lineNumber="79"/>
+    <functiondecl file="tile.h" functionName="subLevel" lineNumber="80"/>
+    <functiondecl file="tile.h" functionName="subiLat" lineNumber="81"/>
+    <functiondecl file="tile.h" functionName="subiLng" lineNumber="82"/>
+    <functiondecl file="tile.h" functionName="nLat" lineNumber="83"/>
+    <functiondecl file="tile.h" functionName="nLng" lineNumber="84"/>
+    <functiondecl file="tile.h" functionName="setLevel" lineNumber="87"/>
+    <functiondecl file="tile.h" functionName="setiLat" lineNumber="88"/>
+    <functiondecl file="tile.h" functionName="setiLng" lineNumber="89"/>
+    <functiondecl file="tile.h" functionName="setSubLevel" lineNumber="90"/>
+    <functiondecl file="tile.h" functionName="setSubiLat" lineNumber="91"/>
+    <functiondecl file="tile.h" functionName="setSubiLng" lineNumber="92"/>
+    <functiondecl file="tile.h" functionName="root" lineNumber="97"/>
+    <functiondecl file="tile.h" functionName="getData" lineNumber="129"/>
+    <functiondecl file="tile.h" functionName="getData" lineNumber="130"/>
+    <functiondecl file="tile.h" functionName="Level" lineNumber="179"/>
+    <functiondecl file="tile.h" functionName="iLat0" lineNumber="181"/>
+    <functiondecl file="tile.h" functionName="iLat1" lineNumber="182"/>
+    <functiondecl file="tile.h" functionName="iLng0" lineNumber="183"/>
+    <functiondecl file="tile.h" functionName="iLng1" lineNumber="184"/>
+    <functiondecl file="tile.h" functionName="nLat" lineNumber="185"/>
+    <functiondecl file="tile.h" functionName="nLng" lineNumber="186"/>
+    <functiondecl file="tile.h" functionName="iLng_norm" lineNumber="187"/>
+    <functiondecl file="tile.h" functionName="nLatBlock" lineNumber="188"/>
+    <functiondecl file="tile.h" functionName="nLngBlock" lineNumber="189"/>
+    <functiondecl file="tile.h" functionName="nBlock" lineNumber="190"/>
+    <functiondecl file="tile.h" functionName="getData" lineNumber="260"/>
+    <functiondecl file="tile.h" functionName="getData" lineNumber="261"/>
+    <functiondecl file="tile.h" functionName="getData" lineNumber="300"/>
+    <functiondecl file="tile.h" functionName="getBaseData" lineNumber="301"/>
+    <functiondecl file="tile.h" functionName="isModified" lineNumber="311"/>
+    <functiondecl file="tile.h" functionName="getData" lineNumber="356"/>
+    <functiondecl file="tile.h" functionName="getData" lineNumber="357"/>
+    <functiondecl file="tile.h" functionName="getBaseData" lineNumber="358"/>
+    <functiondecl file="tile.h" functionName="getBaseData" lineNumber="359"/>
+    <functiondecl file="tile.h" functionName="isModified" lineNumber="360"/>
+    <functiondecl file="elv_io.cpp" functionName="elvread" lineNumber="29"/>
+    <functiondecl file="elv_io.cpp" functionName="elvmodread" lineNumber="86"/>
+    <functiondecl file="elv_io.cpp" functionName="elvscan" lineNumber="140"/>
+    <functiondecl file="elv_io.cpp" functionName="elvmodscan" lineNumber="191"/>
+    <functiondecl file="elv_io.cpp" functionName="elvwrite" lineNumber="244"/>
+    <functiondecl file="elv_io.cpp" functionName="elvmodwrite" lineNumber="319"/>
+    <functiondecl file="elv_io.cpp" functionName="elvread_png" lineNumber="398"/>
+    <functiondecl file="elv_io.cpp" functionName="elvwrite_png" lineNumber="440"/>
+    <functioncall functionName="DXT1Tile"/>
+    <functioncall functionName="ElevData"/>
+    <functioncall functionName="ElevDisplayParam"/>
+    <functioncall functionName="ElevTileBlock"/>
+    <functioncall functionName="Idx"/>
+    <functioncall functionName="Image"/>
+    <functioncall functionName="NodeSizeDeflated"/>
+    <functioncall functionName="NodeSizeInflated"/>
+    <functioncall functionName="PNG_FORMAT_LINEAR_Y"/>
+    <functioncall functionName="PNG_IMAGE_VERSION"/>
+    <functioncall functionName="ReadData"/>
+    <functioncall functionName="SurfTileBlock"/>
+    <functioncall functionName="Tile"/>
+    <functioncall functionName="TileBlock"/>
+    <functioncall functionName="TreeNode"/>
+    <functioncall functionName="ZTreeMgr"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cmap"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="fabs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="fread"/>
+    <functioncall functionName="fseek"/>
+    <functioncall functionName="fwrite"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="max_element"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="min_element"/>
+    <functioncall functionName="nLat"/>
+    <functioncall functionName="nLng"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="png_image"/>
+    <functioncall functionName="png_image_begin_read_from_file"/>
+    <functioncall functionName="png_image_finish_read"/>
+    <functioncall functionName="png_image_free"/>
+    <functioncall functionName="png_image_write_to_file"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="strncmp"/>
+    <functioncall functionName="strncpy"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+        <error id="purgedConfiguration" severity="information" msg="The configuration &apos;_M_X64;__x86_64__&apos; was not checked because its code equals another one." verbose="The configuration &apos;_M_X64;__x86_64__&apos; was not checked because its code equals another one.">
+            <location file="elv_io.cpp" line="0" column="0"/>
+        </error>
+</analyzerinfo>

@@ -1,0 +1,5 @@
+Image
+operator=
+SubImage call:[data,memcpy,resize,sizeof] noreturn:[memcpy]
+match_histogram call:[memset,sizeof]
+match_hue_sat call:[blue,c1,c2,getHsv,green,red,setHsv]
