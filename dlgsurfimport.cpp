@@ -122,7 +122,12 @@ void DlgSurfImport::accept()
 	m_metaInfo.alphaBlend = ui->checkAlphaBlend->isChecked();
 	m_metaInfo.colourMatch = ui->comboColourmatch->currentIndex();
 
-	SurfTileBlock *sblock = SurfTileBlock::Load(m_metaInfo.lvl, m_metaInfo.ilat0, m_metaInfo.ilat1, m_metaInfo.ilng0, m_metaInfo.ilng1);
+    SurfTileBlock *sblock = SurfTileBlock::Load(m_metaInfo.lvl, m_metaInfo.ilat0, m_metaInfo.ilat1, m_metaInfo.ilng0, m_metaInfo.ilng1);
+
+    if (!sblock) {
+        QMessageBox::critical(this, tr("tileedit: Error"), tr("No se pudo crear SurfTileBlock."));
+        return;
+    }
 	int res = dxtread_png(ui->editPath->text().toLatin1(), m_metaInfo, sblock->getData());
 	if (res != 0) {
 		QString msg("Error reading PNG file:\n");

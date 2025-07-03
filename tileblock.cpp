@@ -5,6 +5,8 @@
 #include <math.h>
 #include <cstring>
 #include <cfloat>
+#include <QtCore/qglobal.h>
+#include <QDebug>
 
 
 TileBlock::TileBlock(int lvl, int ilat0, int ilat1, int ilng0, int ilng1)
@@ -206,21 +208,28 @@ SurfTileBlock *SurfTileBlock::Load(int lvl, int ilat0, int ilat1, int ilng0, int
 			const Image &im = stile->getData();
 			int yrep = tilesize / im.height;
 			int xrep = tilesize / im.width;
-			int yofs = (ilat - ilat0) * tilesize;
-			int xofs = (ilng - ilng0) * tilesize;
+            int yofs = (ilat - ilat0) * tilesize;
+            int xofs = (ilng - ilng0) * tilesize;
 
-			for (int i = 0; i < im.height; i++) {
-				for (int ii = 0; ii < yrep; ii++) {
-					for (int j = 0; j < im.width; j++) {
-						for (int jj = 0; jj < xrep; jj++) {
-							DWORD v = im.data[i*im.width + j];
-							int idx = yofs * stileblock->m_idata.width + xofs + j*xrep + jj;
-							stileblock->m_idata.data[idx] = v;
-						}
-					}
-					yofs++;
-				}
-			}
+            for (int i = 0; i < im.height; i++) {
+                for (int ii = 0; ii < yrep; ii++) {
+                    for (int j = 0; j < im.width; j++) {
+                        for (int jj = 0; jj < xrep; jj++) {
+                            DWORD v = im.data[i * im.width + j];
+                            int idx = yofs * stileblock->m_idata.width + xofs + j * xrep + jj;
+
+                            if (idx >= stileblock->m_idata.data.size()) {
+                                qWarning() << "Índice fuera de rango en m_idata.data: " << idx
+                                           << " (máx=" << stileblock->m_idata.data.size() - 1 << ")";
+                                continue;
+                            }
+
+                            stileblock->m_idata.data[idx] = v;
+                        }
+                    }
+                    yofs++;
+                }
+            }
 		}
 	}
 	return stileblock;

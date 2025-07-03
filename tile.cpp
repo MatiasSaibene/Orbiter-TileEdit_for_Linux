@@ -4,6 +4,7 @@
 #include <unistd.h>
 #include <sys/stat.h>
 #include "dxt_io.h"
+#include <QDebug>
 
 int Tile::s_openMode = 0x3;
 TileLoadMode Tile::s_globalLoadMode = TILELOADMODE_ANCESTORSUBSECTION;
@@ -237,12 +238,29 @@ SurfTile::SurfTile(int lvl, int ilat, int ilng)
 
 SurfTile *SurfTile::Load(int lvl, int ilat, int ilng, TileLoadMode mode)
 {
+    qDebug() << "[SurfTile::Load] lvl:" << lvl << "ilat:" << ilat << "ilng:" << ilng;
+
     SurfTile *stile = new SurfTile(lvl, ilat, ilng);
-	if (!stile->LoadPNGtmp() && !stile->LoadDXT1(s_treeMgr, mode)) {
-		delete stile;
-		return 0;
-	}
-	return stile;
+
+    if (stile->LoadPNGtmp()) {
+        qDebug() << "[SurfTile::Load] PNG temp load successful";
+        return stile;
+    }
+
+    qDebug() << "[SurfTile::Load] PNG temp load failed, trying DXT1";
+
+    if (!s_treeMgr) {
+        qDebug() << "[SurfTile::Load] ERROR: s_treeMgr is null!";
+    }
+
+    if (stile->LoadDXT1(s_treeMgr, mode)) {
+        qDebug() << "[SurfTile::Load] DXT1 load successful";
+        return stile;
+    }
+
+    qDebug() << "[SurfTile::Load] Both PNG and DXT1 loading failed. Deleting stile.";
+    delete stile;
+    return nullptr;
 }
 
 SurfTile *SurfTile::InterpolateFromAncestor(int lvl, int ilat, int ilng)

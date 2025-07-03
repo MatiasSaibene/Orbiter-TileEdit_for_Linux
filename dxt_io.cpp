@@ -135,6 +135,8 @@ int dxtread_png(const char *fname, const SurfPatchMetaInfo &meta, Image &sdata)
         int w = image.width;
         int h = image.height;
 
+        if (&sdata == nullptr) return -3;
+
         sdata.width = w;
         sdata.height = h;
         sdata.data.resize(w * h);

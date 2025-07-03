@@ -932,13 +932,19 @@ void tileedit::setTile(int lvl, int ilat, int ilng)
 	ui->labelLngmax->setText(cbuf);
 }
 
-void tileedit::setupTreeManagers(std::string &root)
+void tileedit::setupTreeManagers(const std::string &root)
 {
+	qDebug() << "[tileedit::setupTreeManagers] Called with root:" << QString::fromStdString(root);
+
 	releaseTreeManagers();
 
 	m_mgrSurf = ZTreeMgr::CreateFromFile(root.c_str(), ZTreeMgr::LAYER_SURF);
 	SurfTile::setTreeMgr(m_mgrSurf);
-
+	if (!m_mgrSurf) {
+		qWarning() << "[tileedit::setupTreeManagers] m_mgrSurf is null. Tree managers not initialized!";
+		return;
+	}
+	
 	m_mgrMask = ZTreeMgr::CreateFromFile(root.c_str(), ZTreeMgr::LAYER_MASK);
 	MaskTile::setTreeMgr(m_mgrMask);
 
