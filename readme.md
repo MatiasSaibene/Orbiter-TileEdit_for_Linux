@@ -8,4 +8,4 @@ tileedit is written in C++ and based on Qt to provide the user interface. The pr
 
 Author: Martin Schweiger
 
-tileedit is licensed under the GNU General Public License Version 3. See file "COPYING" for details.
+tileedit is licensed under the GNU General Public License Version 3. See file "COPYING" for details.![Screenshot_2025julio03153659](https://github.com/user-attachments/assets/f5bb7d3b-92a0-484a-a662-374a93c9cc30)
